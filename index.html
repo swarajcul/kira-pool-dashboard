@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kira Pool — live lanes</title>
+<meta http-equiv="refresh" content="60">
+<style>
+:root{--bg:#0b0e14;--card:#141926;--txt:#e6e9ef;--mut:#8a93a6;--ok:#2ee6a8;--warn:#f5c542;--bad:#ff5d5d;--cold:#a06bff;--fb:#4da3ff}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--txt);font:15px/1.5 "Segoe UI",system-ui,sans-serif;padding:24px}
+h1{font-size:20px;margin:0 0 4px;letter-spacing:.5px}.sub{color:var(--mut);font-size:12px;margin-bottom:20px}
+.big{font-size:34px;font-weight:700;color:var(--ok)}.bignum{display:flex;gap:28px;flex-wrap:wrap;margin-bottom:22px}
+.bignum>div{background:var(--card);border:1px solid #1f2636;border-radius:10px;padding:14px 20px;min-width:170px}
+.bignum span{display:block;color:var(--mut);font-size:11px;text-transform:uppercase;letter-spacing:1px}
+.lanes{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}
+.lane{background:var(--card);border:1px solid #1f2636;border-radius:10px;padding:14px}
+.lane .id{font-weight:700;display:flex;justify-content:space-between;align-items:center}
+.pill{font-size:10px;padding:2px 8px;border-radius:20px;font-weight:600}
+.prim{background:rgba(46,230,168,.15);color:var(--ok)}.fb{background:rgba(77,163,255,.15);color:var(--fb)}
+.bar{height:8px;background:#1f2636;border-radius:6px;margin:10px 0 6px;overflow:hidden}
+.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--ok),var(--warn))}
+.row{display:flex;justify-content:space-between;font-size:12px;color:var(--mut)}
+.st{margin-top:8px;font-size:12px}.g{color:var(--ok)}.r{color:var(--bad)}.c{color:var(--cold)}
+.foot{margin-top:24px;color:var(--mut);font-size:11px}
+</style></head><body>
+<h1>◈ KIRA POOL — lane status</h1>
+<div class="sub" id="upd">loading…</div>
+<div class="bignum">
+ <div><span>Pool remaining today</span><div class="big" id="tot">–</div></div>
+ <div><span>Lanes live</span><div class="big" id="live">–</div></div>
+ <div><span>Prim / Fb</span><div class="big" id="split">–</div></div>
+ <div><span>Farm ceiling</span><div class="big" id="ceil">–</div></div>
+</div>
+<div class="lanes" id="lanes"></div>
+<div class="foot">auto-refresh 60s · aliases only, no credentials or emails on this page · data.json</div>
+<script>
+const M = n => n>=1e6 ? (n/1e6).toFixed(1)+'M' : n>=1e3 ? (n/1e3).toFixed(0)+'k' : (n??'–');
+fetch('data.json?ts='+Date.now()).then(r=>r.json()).then(d=>{
+  document.getElementById('upd').textContent='updated '+new Date(d.updated).toLocaleString();
+  const L=d.lanes, ok=L.filter(x=>!x.cold && (x.remaining??1)>2e6);
+  document.getElementById('tot').textContent=M(d.total_remaining);
+  document.getElementById('live').textContent=ok.length+' / '+L.length;
+  document.getElementById('split').textContent=L.filter(x=>x.pool=='prim').length+' / '+L.filter(x=>x.pool=='fb').length;
+  document.getElementById('ceil').textContent=M(L.length*80e6);
+  document.getElementById('lanes').innerHTML=L.map(x=>{
+    const pct=x.remaining==null?0:Math.max(0,Math.min(100,x.remaining/80e6*100));
+    const st=x.cold?'<span class="st c">❄ COOLDOWN</span>':x.claimed?'<span class="st g">✓ claimed</span>':'<span class="st r">✗ unclaimed</span>';
+    return `<div class="lane"><div class="id">${x.alias}<span class="pill ${x.pool}">${x.pool}</span></div>
+    <div class="bar"><i style="width:${pct}%"></i></div>
+    <div class="row"><span>left ${M(x.remaining)}</span><span>used ${M(x.used)}</span></div>
+    <div class="row"><span>reqs ${x.reqs??0}</span><span>${x.last_error?('⚠ '+x.last_error.slice(0,28)):''}</span></div>
+    ${st}</div>`}).join('');
+}).catch(e=>document.getElementById('upd').textContent='data fetch failed: '+e);
+</script></body></html>

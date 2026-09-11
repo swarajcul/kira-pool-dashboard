@@ -1,0 +1,46 @@
+{
+ "updated": "2026-09-11T20:06:53.269886+00:00",
+ "total_remaining": 0,
+ "lanes": [
+  {
+   "alias": "a1",
+   "pool": "fb",
+   "remaining": null,
+   "used": 11119,
+   "claimed": false,
+   "cold": false,
+   "reqs": 3,
+   "last_error": ""
+  },
+  {
+   "alias": "a2",
+   "pool": "fb",
+   "remaining": null,
+   "used": 0,
+   "claimed": false,
+   "cold": false,
+   "reqs": 0,
+   "last_error": ""
+  },
+  {
+   "alias": "a3",
+   "pool": "fb",
+   "remaining": null,
+   "used": 0,
+   "claimed": false,
+   "cold": false,
+   "reqs": 0,
+   "last_error": ""
+  },
+  {
+   "alias": "a4",
+   "pool": "fb",
+   "remaining": null,
+   "used": 0,
+   "claimed": false,
+   "cold": false,
+   "reqs": 0,
+   "last_error": ""
+  }
+ ]
+}
