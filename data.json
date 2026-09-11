@@ -1,13 +1,13 @@
 {
- "updated": "2026-09-11T20:10:05.794415+00:00",
- "total_remaining": 0,
+ "updated": "2026-09-11T20:13:23.762308+00:00",
+ "total_remaining": 253577819,
  "lanes": [
   {
    "alias": "a1",
    "pool": "fb",
-   "remaining": null,
+   "remaining": 79988881,
    "used": 11119,
-   "claimed": false,
+   "claimed": true,
    "cold": false,
    "reqs": 3,
    "last_error": ""
@@ -15,9 +15,9 @@
   {
    "alias": "a2",
    "pool": "fb",
-   "remaining": null,
+   "remaining": 27383109,
    "used": 0,
-   "claimed": false,
+   "claimed": true,
    "cold": false,
    "reqs": 0,
    "last_error": ""
@@ -25,9 +25,9 @@
   {
    "alias": "a3",
    "pool": "fb",
-   "remaining": null,
+   "remaining": 66992693,
    "used": 0,
-   "claimed": false,
+   "claimed": true,
    "cold": false,
    "reqs": 0,
    "last_error": ""
@@ -35,9 +35,9 @@
   {
    "alias": "a4",
    "pool": "fb",
-   "remaining": null,
+   "remaining": 79213136,
    "used": 0,
-   "claimed": false,
+   "claimed": true,
    "cold": false,
    "reqs": 0,
    "last_error": ""
