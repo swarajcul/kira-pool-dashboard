@@ -1,6 +1,6 @@
 {
- "updated": "2026-09-12T12:55:41.773090+00:00",
- "total_remaining": 434142751,
+ "updated": "2026-09-12T13:00:42.337285+00:00",
+ "total_remaining": 434123178,
  "lanes": [
   {
    "alias": "a1",
@@ -25,7 +25,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T12:55:12.400880+00:00"
+   "asof": "2026-09-12T13:00:29.823077+00:00"
   },
   {
    "alias": "a2",
@@ -50,7 +50,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T12:55:14.484023+00:00"
+   "asof": "2026-09-12T13:00:32.022338+00:00"
   },
   {
    "alias": "a3",
@@ -75,7 +75,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T12:55:16.763044+00:00"
+   "asof": "2026-09-12T13:00:34.179327+00:00"
   },
   {
    "alias": "a4",
@@ -100,7 +100,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T12:55:18.869794+00:00"
+   "asof": "2026-09-12T13:00:36.322683+00:00"
   },
   {
    "alias": "p5",
@@ -125,17 +125,17 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T12:55:21.062089+00:00"
+   "asof": "2026-09-12T13:00:38.876621+00:00"
   },
   {
    "alias": "p6",
    "name": "ausacursor",
    "pool": "prim",
-   "remaining": 72724598,
-   "used": 5277813,
+   "remaining": 72705025,
+   "used": 5297097,
    "claimed": true,
-   "cold": true,
-   "reqs": 54,
+   "cold": false,
+   "reqs": 55,
    "soft_fails": 4,
    "last_error": "",
    "wallet": 50000,
@@ -150,7 +150,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T12:55:23.211750+00:00"
+   "asof": "2026-09-12T13:00:41.178940+00:00"
   },
   {
    "alias": "p7",
@@ -215,11 +215,11 @@
   "days": {
    "2026-09-12": {
     "qwen3.8-flash-free": {
-     "prompt": 27237327,
-     "completion": 103884,
-     "total": 27341211,
-     "reqs": 214,
-     "est_reqs": 210
+     "prompt": 27254659,
+     "completion": 105836,
+     "total": 27360495,
+     "reqs": 215,
+     "est_reqs": 211
     },
     "hy3-free": {
      "prompt": 4088,
@@ -232,11 +232,11 @@
   },
   "models": {
    "qwen3.8-flash-free": {
-    "prompt": 27237327,
-    "completion": 103884,
-    "total": 27341211,
-    "reqs": 214,
-    "est_reqs": 210
+    "prompt": 27254659,
+    "completion": 105836,
+    "total": 27360495,
+    "reqs": 215,
+    "est_reqs": 211
    },
    "hy3-free": {
     "prompt": 4088,
