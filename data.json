@@ -1,6 +1,6 @@
 {
- "updated": "2026-09-12T05:51:00.734892+00:00",
- "total_remaining": 505765355,
+ "updated": "2026-09-12T05:55:58.105126+00:00",
+ "total_remaining": 501015107,
  "lanes": [
   {
    "alias": "a1",
@@ -28,7 +28,7 @@
    "alias": "a3",
    "name": "Swarajsxy",
    "pool": "fb",
-   "remaining": 26574621,
+   "remaining": 21824373,
    "used": 0,
    "claimed": true,
    "cold": false,
