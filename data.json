@@ -1,6 +1,6 @@
 {
- "updated": "2026-09-12T12:50:41.306492+00:00",
- "total_remaining": 434683154,
+ "updated": "2026-09-12T12:55:41.773090+00:00",
+ "total_remaining": 434142751,
  "lanes": [
   {
    "alias": "a1",
@@ -25,7 +25,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T12:49:54.563891+00:00"
+   "asof": "2026-09-12T12:55:12.400880+00:00"
   },
   {
    "alias": "a2",
@@ -50,7 +50,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T12:49:56.710692+00:00"
+   "asof": "2026-09-12T12:55:14.484023+00:00"
   },
   {
    "alias": "a3",
@@ -75,7 +75,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T12:49:58.881672+00:00"
+   "asof": "2026-09-12T12:55:16.763044+00:00"
   },
   {
    "alias": "a4",
@@ -100,13 +100,13 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T12:50:01.121838+00:00"
+   "asof": "2026-09-12T12:55:18.869794+00:00"
   },
   {
    "alias": "p5",
    "name": "cursordata",
    "pool": "prim",
-   "remaining": 68666038,
+   "remaining": 68396048,
    "used": 8593438,
    "claimed": true,
    "cold": false,
@@ -125,7 +125,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T12:50:03.412573+00:00"
+   "asof": "2026-09-12T12:55:21.062089+00:00"
   },
   {
    "alias": "p6",
@@ -150,17 +150,17 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T12:50:05.570623+00:00"
+   "asof": "2026-09-12T12:55:23.211750+00:00"
   },
   {
    "alias": "p7",
    "name": "batacursor",
    "pool": "prim",
-   "remaining": 68679540,
-   "used": 8476532,
+   "remaining": 68409127,
+   "used": 8683461,
    "claimed": true,
    "cold": false,
-   "reqs": 64,
+   "reqs": 65,
    "soft_fails": 3,
    "last_error": "",
    "wallet": 50000,
@@ -175,7 +175,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T12:50:07.696820+00:00"
+   "asof": "2026-09-12T12:55:25.314348+00:00"
   },
   {
    "alias": "p8",
@@ -184,7 +184,7 @@
    "remaining": 70528904,
    "used": 7176962,
    "claimed": true,
-   "cold": true,
+   "cold": false,
    "reqs": 52,
    "soft_fails": 5,
    "last_error": "",
@@ -200,7 +200,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T12:50:09.946622+00:00"
+   "asof": "2026-09-12T12:55:27.439337+00:00"
   }
  ],
  "free_models": [
@@ -215,11 +215,11 @@
   "days": {
    "2026-09-12": {
     "qwen3.8-flash-free": {
-     "prompt": 27030759,
-     "completion": 103523,
-     "total": 27134282,
-     "reqs": 213,
-     "est_reqs": 209
+     "prompt": 27237327,
+     "completion": 103884,
+     "total": 27341211,
+     "reqs": 214,
+     "est_reqs": 210
     },
     "hy3-free": {
      "prompt": 4088,
@@ -232,11 +232,11 @@
   },
   "models": {
    "qwen3.8-flash-free": {
-    "prompt": 27030759,
-    "completion": 103523,
-    "total": 27134282,
-    "reqs": 213,
-    "est_reqs": 209
+    "prompt": 27237327,
+    "completion": 103884,
+    "total": 27341211,
+    "reqs": 214,
+    "est_reqs": 210
    },
    "hy3-free": {
     "prompt": 4088,
