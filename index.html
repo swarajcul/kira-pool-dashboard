@@ -8,19 +8,21 @@
 *{box-sizing:border-box}body{margin:0;background:radial-gradient(1200px 600px at 70% -10%,#0f1626 0%,var(--bg) 55%);color:var(--txt);font:15px/1.5 "Segoe UI",system-ui,sans-serif;padding:22px}
 h1{font-size:19px;margin:0;letter-spacing:1px}h1 b{color:var(--ok)}
 .sub{color:var(--mut);font-size:12px;margin:2px 0 18px}
-.kpis{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:8px}
-.kpi{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 18px;min-width:148px}
+.kpis{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:8px}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 16px;min-width:138px;flex:1 1 138px}
 .kpi span{display:block;color:var(--mut);font-size:10px;text-transform:uppercase;letter-spacing:1.2px}
-.kpi b{font-size:25px;font-weight:700}.kpi .g{color:var(--ok)}.kpi .y{color:var(--warn)}.kpi .p{color:var(--gold)}
+.kpi b{font-size:24px;font-weight:700}.kpi .g{color:var(--ok)}.kpi .y{color:var(--warn)}.kpi .p{color:var(--gold)}.kpi .r{color:var(--bad)}
 .zone{display:flex;align-items:center;gap:10px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 16px;margin:0 0 18px;font-size:13px;color:var(--mut);flex-wrap:wrap}
 .zone b{color:var(--warn);font-variant-numeric:tabular-nums;font-size:16px}
-.sec{font-size:11px;letter-spacing:2px;color:var(--mut);text-transform:uppercase;margin:20px 0 10px}
-.lanes{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:13px}
-.lane{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 15px 13px;position:relative;overflow:hidden}
+.sec{font-size:11px;letter-spacing:2px;color:var(--mut);text-transform:uppercase;margin:22px 0 10px;display:flex;align-items:center;gap:10px}
+.sec .n{font-size:10px;color:var(--txt);background:var(--card);border:1px solid var(--line);border-radius:10px;padding:1px 8px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:13px}
+.lane,.mcard{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 15px 13px;position:relative;overflow:hidden}
 .lane::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--ok)}
 .lane.fbl::before{background:var(--fbc)}.lane.coldl::before{background:var(--cold)}.lane.drainl::before{background:var(--bad)}
 .top{display:flex;justify-content:space-between;align-items:center;gap:8px}
 .nm{font-weight:700;font-size:15px}
+.rank{font-size:10px;color:var(--mut);font-weight:700;margin-right:6px}
 .pill{font-size:9px;padding:2px 8px;border-radius:20px;font-weight:700;letter-spacing:.5px}
 .prim{background:rgba(46,230,168,.14);color:var(--ok)}.fb{background:rgba(77,163,255,.14);color:var(--fbc)}
 .bar{height:9px;background:#1a2130;border-radius:6px;margin:11px 0 5px;overflow:hidden}
@@ -30,13 +32,25 @@ h1{font-size:19px;margin:0;letter-spacing:1px}h1 b{color:var(--ok)}
 .foot{display:flex;justify-content:space-between;align-items:center;margin-top:10px;border-top:1px dashed var(--line);padding-top:9px}
 .wal{font-size:12px;color:var(--gold);font-weight:600}
 .cd{font-size:12px;color:var(--mut);font-variant-numeric:tabular-nums}.cd b{color:var(--txt)}
-.stt{margin-top:7px;font-size:12px}.g{color:var(--ok)}.r{color:var(--bad)}.c{color:var(--cold)}
+.stt{margin-top:7px;font-size:12px}
+.g{color:var(--ok)}.r{color:var(--bad)}.c{color:var(--cold)}
 .err{font-size:11px;color:var(--bad);margin-top:4px;word-break:break-all}
 .chips{display:flex;flex-wrap:wrap;gap:5px;margin-top:9px}
 .chip{font-size:10.5px;padding:2.5px 9px;border-radius:20px;background:rgba(46,230,168,.10);color:#8af5c9;border:1px solid rgba(46,230,168,.22)}
-.chip.dead{background:rgba(255,93,93,.10);color:#ff9d9d;border-color:rgba(255,93,93,.25)}
-.chip.paid{background:rgba(255,201,77,.10);color:var(--gold);border-color:rgba(255,201,77,.25)}
+.chip.est{background:rgba(160,107,255,.12);color:#c9a6ff;border-color:rgba(160,107,255,.3)}
 .chip.na{background:#161c28;color:#5b6478;border-color:#1d2433}
+.ubox{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.urow{display:grid;grid-template-columns:170px 1fr 200px;gap:10px;align-items:center;padding:7px 0;border-bottom:1px solid #151b27;font-size:12.5px}
+.urow:last-child{border-bottom:0}
+.ubar{height:14px;background:#1a2130;border-radius:7px;overflow:hidden}
+.ubar i{display:block;height:100%;background:linear-gradient(90deg,#4da3ff,#2ee6a8)}
+.uval{text-align:right;font-variant-numeric:tabular-nums;color:var(--txt)}
+.uval small{color:var(--mut)}
+.udays{display:flex;gap:6px;align-items:flex-end;margin-top:12px;height:64px}
+.uday{flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;gap:3px;min-width:0}
+.uday i{width:100%;max-width:44px;border-radius:4px 4px 0 0;background:linear-gradient(180deg,#2ee6a8,#197f5e);display:block}
+.uday span{font-size:9px;color:var(--mut);white-space:nowrap}
+.uday b{font-size:9.5px;color:#8af5c9}
 .freebar{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 16px}
 .freetbl{width:100%;font-size:12.5px;border-collapse:collapse}
 .freetbl th{text-align:left;color:var(--mut);font-size:10px;text-transform:uppercase;letter-spacing:1px;padding:4px 8px;border-bottom:1px solid var(--line)}
@@ -47,7 +61,9 @@ h1{font-size:19px;margin:0;letter-spacing:1px}h1 b{color:var(--ok)}
 .tab{background:var(--card);border:1px solid var(--line);color:var(--mut);padding:6px 16px;border-radius:20px;cursor:pointer;font-size:12.5px}
 .tab.on{background:rgba(46,230,168,.12);color:var(--ok);border-color:rgba(46,230,168,.3)}
 .cat{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:11px}
-.mcard{background:var(--card);border:1px solid var(--line);border-radius:11px;padding:12px 14px}
+.mcard{border-radius:11px;padding:12px 14px}
+.mcard::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--gold)}
+.mcard.free::before{background:var(--ok)}
 .mcard .mn{font-weight:700;font-size:13.5px;display:flex;justify-content:space-between;align-items:center;gap:6px}
 .mcard .mg{color:var(--mut);font-size:11px;margin-top:1px}
 .mcard .mp{color:var(--gold);font-size:12px;margin-top:7px;font-variant-numeric:tabular-nums}
@@ -57,44 +73,51 @@ h1{font-size:19px;margin:0;letter-spacing:1px}h1 b{color:var(--ok)}
 .badge{font-size:9px;padding:2px 8px;border-radius:20px;font-weight:700}
 .bg-free{background:rgba(46,230,168,.14);color:var(--ok)}
 .bg-paid{background:rgba(255,201,77,.12);color:var(--gold)}
+.pager{display:flex;gap:6px;align-items:center;justify-content:center;margin:14px 0 2px;flex-wrap:wrap}
+.pg{background:var(--card);border:1px solid var(--line);color:var(--mut);border-radius:8px;padding:4px 11px;font-size:12px;cursor:pointer}
+.pg.on{color:var(--ok);border-color:rgba(46,230,168,.4);background:rgba(46,230,168,.10)}
+.pg:hover{color:var(--txt)}
 .tip{color:#5b6478;font-size:11px;margin-top:22px}
+@media(max-width:640px){.urow{grid-template-columns:120px 1fr;grid-auto-rows:auto}.uval{grid-column:1/-1;text-align:left}.kpi{min-width:45%}}
 </style></head><body>
 <h1>◈ KIRA <b>POOL</b> — command center</h1>
 <div class="sub" id="upd">loading…</div>
 
 <div class="kpis">
  <div class="kpi"><span>Free left today</span><b class="g" id="tot">–</b></div>
+ <div class="kpi"><span>Burned today</span><b class="r" id="burned">–</b></div>
+ <div class="kpi"><span>Requests today</span><b id="reqs">–</b></div>
  <div class="kpi"><span>Wallet tokens</span><b class="p" id="wal">–</b></div>
  <div class="kpi"><span>Live lanes</span><b id="live">–</b></div>
  <div class="kpi"><span>Prim / Fb</span><b id="split">–</b></div>
- <div class="kpi"><span>Ceiling</span><b class="y" id="ceil">–</b></div>
  <div class="kpi"><span>Free models live</span><b class="g" id="fmn">–</b></div>
 </div>
-<div class="zone">⏱ Vietnam reset (quota 00:00 ICT · claim window) <b id="rst">–:–:–</b> &nbsp;·&nbsp; ICT now <span id="ict">–</span> &nbsp;·&nbsp; model catalog re-scanned hourly, no token burn</div>
+<div class="zone">⏱ Vietnam reset (quota 00:00 ICT · claim window) <b id="rst">–:–:–</b> &nbsp;·&nbsp; ICT now <span id="ict">–</span> &nbsp;·&nbsp; usage = pool-metered per model/day (streams estimated, badge "est")</div>
 
-<div class="sec">Primary tier — traffic first</div>
-<div class="lanes" id="prim"></div>
-<div class="sec">Fallback tier</div>
-<div class="lanes" id="fb"></div>
+<div class="sec">Usage today <span class="n" id="uday">–</span></div>
+<div class="ubox" id="ubox"><div class="sub">waiting for first metered request…</div></div>
 
-<div class="sec">Free models — live status (per account availability on each card)</div>
+<div class="sec">Lanes ranked by remaining capacity</div>
+<div class="grid" id="lanes"></div>
+
+<div class="sec">Free models — live status</div>
 <div class="freebar"><table class="freetbl" id="ftbl"><tbody><tr><td>loading…</td></tr></tbody></table></div>
 
-<div class="sec">Model catalog — paid tiers (wallet tokens) · per-generation token & cost estimates</div>
-<div class="tabs" id="tabs"></div>
+<div class="sec">Model catalog <span class="n" id="catn">–</span> <span style="margin-left:auto;display:flex;gap:8px" class="tabs" id="tabs"></span></div>
 <div class="cat" id="cat"></div>
+<div class="pager" id="pager"></div>
 
-<div class="tip">auto-refresh 60s · counts only — no emails, keys, or credentials leave this VPS · reset clock Asia/Ho_Chi_Minh (UTC+7) · catalog from kira /api/v1/models metadata (zero token spend) · cost estimates follow kira's own UI figures (image ≈3k tok, video ≈50-60k tok/sec, TTS ≈1k tok/min)</div>
+<div class="tip">auto-refresh 60s · counts only — no emails, keys, or credentials leave this VPS · reset clock Asia/Ho_Chi_Minh (UTC+7) · catalog from kira /api/v1/models metadata (zero token spend) · cost estimates follow kira's own UI figures (image ≈3k tok, video ≈50-60k tok/sec, TTS ≈20k tok/min)</div>
 
 <script>
-const M = n => n==null?'–' : n>=1e6 ? (n/1e6).toFixed(1)+'M' : n>=1e3 ? (n/1e3).toFixed(1)+'k' : ''+n;
+const M = n => n==null?'–' : n>=1e9 ? (n/1e9).toFixed(2)+'B' : n>=1e6 ? (n/1e6).toFixed(1)+'M' : n>=1e3 ? (n/1e3).toFixed(1)+'k' : ''+n;
 const V = v => v==null?'–' : v>=1e6 ? (v/1e6).toFixed(1)+'Mđ' : v>=1e3 ? (v/1e3).toFixed(1)+'kđ' : v+'đ';
 const ICT_OFF=7*3600e3;
 function ictNow(){return new Date(Date.now()+ICT_OFF);}
 function nextICTMidnight(){const d=ictNow();return Date.UTC(d.getUTCFullYear(),d.getUTCMonth(),d.getUTCDate()+1)-ICT_OFF;}
 function hms(ms){if(ms<0)ms=0;const s=Math.floor(ms/1000);return String(Math.floor(s/3600)).padStart(2,'0')+':'+String(Math.floor(s%3600/60)).padStart(2,'0')+':'+String(s%60).padStart(2,'0');}
-let LANES=[],CAT={},TAB='chat';
-const GEN={image:{},video:{},audio:{}};
+let LANES=[],CAT={},TAB='chat',PAGE=0,USAGE={};
+const PER=12;
 function tick(){
   const nr=nextICTMidnight(),now=Date.now();
   document.getElementById('rst').textContent=hms(nr-now);
@@ -103,13 +126,13 @@ function tick(){
   LANES.forEach(x=>{const el=document.getElementById('cd-'+x.alias);if(!el)return;
     el.innerHTML=x.claimed?'claim in <b>'+hms(nr-now)+'</b>':'<b style="color:var(--ok)">claim ready</b>';});
 }
-function card(x){
+function card(x,i){
   const cap=x.cap||80e6,pct=x.remaining==null?0:Math.max(0,Math.min(100,x.remaining/cap*100));
   const cls=x.cold?'coldl':(x.remaining||0)<2e6?'drainl':'';
   const st=x.cold?'<span class="stt c">❄ COOLDOWN</span>':x.claimed?'<span class="stt g">✓ claimed '+(x.streak?('#'+x.streak):'')+'</span>':'<span class="stt r">✗ unclaimed</span>';
   const fm=(x.free_models||[]).map(m=>`<span class="chip">${m.replace(/-free$/,'')}</span>`).join('') || '<span class="chip na">no free list yet</span>';
   return `<div class="lane ${x.pool==='prim'?'':'fbl'} ${cls}">
-   <div class="top"><div class="nm">${x.name}</div><span class="pill ${x.pool}">${x.pool.toUpperCase()}</span></div>
+   <div class="top"><div class="nm"><span class="rank">#${i+1}</span>${x.name}</div><span class="pill ${x.pool}">${x.pool.toUpperCase()}</span></div>
    <div class="bar ${pct<30?'low':''} ${x.remaining==0?'zero':''}"><i style="width:${pct}%"></i></div>
    <div class="r"><span>${M(x.remaining)} / ${M(cap)} free</span><span>used ${M(x.used)}</span></div>
    <div class="r" style="margin-top:2px"><span>reqs ${x.reqs??0}${x.models_seen?(' · '+x.models_seen+' models'):''}</span><span>${x.last_claim?('claimed '+x.last_claim.slice(5)):'—'}</span></div>
@@ -119,12 +142,32 @@ function card(x){
    <div class="foot"><div class="wal">🜲 ${x.wallet!=null?M(x.wallet):'–'}</div><div class="cd" id="cd-${x.alias}">–</div></div>
   </div>`;
 }
+function usageBox(){
+  const el=document.getElementById('ubox');
+  const day=USAGE.day||'',mods=USAGE.models||{};
+  const names=Object.keys(mods);
+  document.getElementById('uday').textContent=day?('ICT day '+day):'–';
+  if(!names.length){el.innerHTML='<div class="sub">no metered traffic yet today — it appears here after the first pool request.</div>';return;}
+  const max=Math.max(...names.map(n=>mods[n].total||1));
+  let h=names.map(n=>{const e=mods[n];const pctv=Math.max(3,(e.total||0)/max*100);
+    const est=(e.est_reqs&&e.reqs)?`<span class="chip est">est ${Math.round(e.est_reqs/e.reqs*100)}%</span>`:'';
+    return `<div class="urow"><div><b>${n}</b></div>
+      <div class="ubar"><i style="width:${pctv}%"></i></div>
+      <div class="uval">${M(e.total)} tok <small>· in ${M(e.prompt)} / out ${M(e.completion)} · ${e.reqs} req</small> ${est}</div></div>`;}).join('');
+  const days=USAGE.days||{};
+  const dk=Object.keys(days).sort().slice(-7);
+  if(dk.length>1){
+    const dmax=Math.max(...dk.map(k=>Object.values(days[k]).reduce((a,x)=>a+(x.total||0),0)||1));
+    h+='<div class="udays">'+dk.map(k=>{const t=Object.values(days[k]).reduce((a,x)=>a+(x.total||0),0);
+      return `<div class="uday"><b>${M(t)}</b><i style="height:${Math.max(4,t/dmax*44)}px"></i><span>${k.slice(5)}</span></div>`;}).join('')+'</div>';
+  }
+  el.innerHTML=h;
+}
 function freeTable(){
   const t=document.getElementById('ftbl');
   const all={};
   LANES.forEach(l=>(l.free_models||[]).forEach(m=>{all[m]=all[m]||0;all[m]++;}));
-  const known=['mimo-v2.5-free','hy3-free','qwen3.8-flash-free','glm-5.3-free',
-               'glm-5.3-flash-free','qwen3.8-27b-free','ling-3.0-flash-sante-free'];
+  const known=['mimo-v2.5-free','hy3-free','qwen3.8-flash-free','glm-5.3-free'];
   const retired=known.filter(k=>!all[k]);
   let h='<tr><th>model</th><th>on accounts</th><th>status</th></tr>';
   Object.keys(all).sort().forEach(m=>h+=`<tr><td>🆓 ${m}</td><td>${all[m]}/${LANES.length}</td><td><span class="dot up"></span>active</td></tr>`);
@@ -138,12 +181,12 @@ function genEst(m){
   if(m.type==='audio')return '≈20k tok / min of speech';
   return null;
 }
-function catCard(m){
+function catCard(m,i){
   const est=genEst(m);
   const cost=est?('<div class="me">'+est+' · '+V(Math.round((m.p_out||m.p_in||0)*(m.type==='image'?3000/1e6:(m.type==='video'?50000/1e6:20000/1e6))))+' /generation</div>'):
                  (m.p_in!=null?('<div class="mp">in '+V(m.p_in)+' / Mtok · out '+V(m.p_out)+' / Mtok</div>'):'');
-  return `<div class="mcard">
-   <div class="mn">${m.name||m.id}<span class="badge ${m.free?'bg-free':'bg-paid'}">${m.free?'FREE':'PAID'}</span></div>
+  return `<div class="mcard ${m.free?'free':''}">
+   <div class="mn"><span><span class="rank">#${i+1}</span>${m.name||m.id}</span><span class="badge ${m.free?'bg-free':'bg-paid'}">${m.free?'FREE':'PAID'}</span></div>
    <div class="mg">${m.id} · ${m.group||''}</div>
    ${cost}
    <div class="mt"><span class="dot ${m.ops==='operational'?'up':(m.ops==='degraded'?'deg':'down')}"></span><span style="font-size:11.5px;color:var(--mut)">SLA ${m.sla!=null?m.sla+'%':'–'}${m.status!=='active'?' · '+m.status:''}</span></div>
@@ -154,30 +197,43 @@ function renderTabs(){
   const types=['chat','image','video','audio'];
   document.getElementById('tabs').innerHTML=types.map(t=>{
     const n=(CAT[t]||[]).length;
-    return `<div class="tab ${t===TAB?'on':''}" onclick="TAB='${t}';renderTabs()">${t.toUpperCase()} (${n})</div>`;
+    return `<div class="tab ${t===TAB?'on':''}" onclick="TAB='${t}';PAGE=0;renderCat()">${t.toUpperCase()} (${n})</div>`;
   }).join('');
+}
+function renderCat(){
   const list=(CAT[TAB]||[]).sort((a,b)=>(b.free-a.free)||a.id.localeCompare(b.id));
-  document.getElementById('cat').innerHTML=list.map(catCard).join('')||'<div class="sub">no data yet</div>';
+  const pages=Math.max(1,Math.ceil(list.length/PER));
+  if(PAGE>=pages)PAGE=0;
+  const slice=list.slice(PAGE*PER,PAGE*PER+PER);
+  document.getElementById('cat').innerHTML=slice.map((m,i)=>catCard(m,PAGE*PER+i)).join('')||'<div class="sub">no data yet</div>';
+  document.getElementById('catn').textContent=list.length+' models';
+  let h='';
+  for(let p=0;p<pages;p++)h+=`<span class="pg ${p===PAGE?'on':''}" onclick="PAGE=${p};renderCat()">${p+1}</span>`;
+  document.getElementById('pager').innerHTML=pages>1?h:'';
+  renderTabs();
 }
 Promise.all([
   fetch('data.json?ts='+Date.now()).then(r=>r.json()),
   fetch('models.json?ts='+Date.now()).then(r=>r.json()).catch(()=>({models:[]}))
 ]).then(([d,m])=>{
   document.getElementById('upd').textContent='updated '+new Date(d.updated).toLocaleString()+' · counts refresh ≤5min';
-  LANES=d.lanes;
+  LANES=d.lanes;USAGE=d.usage||{};
   const L=d.lanes,ok=L.filter(x=>!x.cold&&(x.remaining??1)>2e6);
   document.getElementById('tot').textContent=M(d.total_remaining);
   document.getElementById('wal').textContent=M(L.reduce((a,x)=>a+(x.wallet||0),0));
   document.getElementById('live').textContent=ok.length+'/'+L.length;
-  document.getElementById('split').textContent=L.filter(x=>x.pool=='prim').length+' / '+L.filter(x=>x.pool=='fb').length;
-  document.getElementById('ceil').textContent=M(L.length*80e6);
-  document.getElementById('prim').innerHTML=L.filter(x=>x.pool==='prim').map(card).join('')||'<div class="sub">none</div>';
-  document.getElementById('fb').innerHTML=L.filter(x=>x.pool!=='prim').map(card).join('');
+  document.getElementById('split').textContent=L.filter(x=>x.pool=='prim').length+' / '+L.filter(x=>x.pool!=='prim').length;
+  const um=Object.values(USAGE.models||{});
+  document.getElementById('burned').textContent=M(um.reduce((a,x)=>a+(x.total||0),0));
+  document.getElementById('reqs').textContent=M(um.reduce((a,x)=>a+(x.reqs||0),0));
+  L.sort((a,b)=>(b.remaining||0)-(a.remaining||0));
+  document.getElementById('lanes').innerHTML=L.map(card).join('')||'<div class="sub">none</div>';
   const freems=new Set(); L.forEach(x=>(x.free_models||[]).forEach(m=>freems.add(m)));
   document.getElementById('fmn').textContent=freems.size;
   freeTable();
+  usageBox();
   CAT={}; (m.models||[]).filter(x=>x.status).forEach(x=>{(CAT[x.type]=CAT[x.type]||[]).push(x);});
-  renderTabs();
+  renderCat();
   tick();
 }).catch(e=>document.getElementById('upd').textContent='data fetch failed: '+e);
 setInterval(tick,1000);

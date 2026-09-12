@@ -1,16 +1,17 @@
 {
- "updated": "2026-09-12T07:40:09.962443+00:00",
- "total_remaining": 476015051,
+ "updated": "2026-09-12T07:59:03.800757+00:00",
+ "total_remaining": 470896893,
  "lanes": [
   {
    "alias": "a1",
    "name": "Swarajigris",
    "pool": "fb",
-   "remaining": 77760687,
-   "used": 11119,
+   "remaining": 77012426,
+   "used": 598075,
    "claimed": true,
    "cold": false,
-   "reqs": 5,
+   "reqs": 10,
+   "soft_fails": 2,
    "last_error": "",
    "wallet": 50000,
    "streak": 3,
@@ -23,7 +24,7 @@
     "qwen3.8-flash-free"
    ],
    "models_seen": 40,
-   "asof": "2026-09-12T07:38:13.138974+00:00"
+   "asof": "2026-09-12T07:57:28.913110+00:00"
   },
   {
    "alias": "a2",
@@ -34,6 +35,7 @@
    "claimed": true,
    "cold": false,
    "reqs": 0,
+   "soft_fails": 0,
    "last_error": "",
    "wallet": 200146,
    "streak": 3,
@@ -46,7 +48,7 @@
     "qwen3.8-flash-free"
    ],
    "models_seen": 40,
-   "asof": "2026-09-12T07:38:15.234087+00:00"
+   "asof": "2026-09-12T07:57:31.826058+00:00"
   },
   {
    "alias": "a3",
@@ -57,6 +59,7 @@
    "claimed": true,
    "cold": false,
    "reqs": 0,
+   "soft_fails": 0,
    "last_error": "",
    "wallet": 0,
    "streak": 3,
@@ -69,17 +72,18 @@
     "qwen3.8-flash-free"
    ],
    "models_seen": 40,
-   "asof": "2026-09-12T07:38:17.390934+00:00"
+   "asof": "2026-09-12T07:57:34.727460+00:00"
   },
   {
    "alias": "a4",
    "name": "rex855070",
    "pool": "fb",
-   "remaining": 79197101,
-   "used": 0,
+   "remaining": 77264905,
+   "used": 1418036,
    "claimed": true,
-   "cold": false,
-   "reqs": 0,
+   "cold": true,
+   "reqs": 13,
+   "soft_fails": 2,
    "last_error": "",
    "wallet": 50000,
    "streak": 2,
@@ -92,17 +96,18 @@
     "qwen3.8-flash-free"
    ],
    "models_seen": 40,
-   "asof": "2026-09-12T07:38:19.677936+00:00"
+   "asof": "2026-09-12T07:57:37.691571+00:00"
   },
   {
    "alias": "p5",
    "name": "cursordata",
    "pool": "prim",
-   "remaining": 79730345,
-   "used": 206827,
+   "remaining": 79251745,
+   "used": 839098,
    "claimed": true,
    "cold": false,
-   "reqs": 4,
+   "reqs": 15,
+   "soft_fails": 2,
    "last_error": "",
    "wallet": 50000,
    "streak": 1,
@@ -115,17 +120,18 @@
     "qwen3.8-flash-free"
    ],
    "models_seen": 40,
-   "asof": "2026-09-12T07:38:21.843941+00:00"
+   "asof": "2026-09-12T07:57:40.623570+00:00"
   },
   {
    "alias": "p6",
    "name": "ausacursor",
    "pool": "prim",
-   "remaining": 79791150,
-   "used": 104427,
+   "remaining": 78939089,
+   "used": 782292,
    "claimed": true,
    "cold": false,
-   "reqs": 4,
+   "reqs": 9,
+   "soft_fails": 3,
    "last_error": "",
    "wallet": 50000,
    "streak": 1,
@@ -138,17 +144,18 @@
     "qwen3.8-flash-free"
    ],
    "models_seen": 40,
-   "asof": "2026-09-12T07:38:23.923927+00:00"
+   "asof": "2026-09-12T07:57:43.631250+00:00"
   },
   {
    "alias": "p7",
    "name": "batacursor",
    "pool": "prim",
-   "remaining": 79815835,
-   "used": 208320,
+   "remaining": 79226223,
+   "used": 819876,
    "claimed": true,
    "cold": false,
-   "reqs": 4,
+   "reqs": 11,
+   "soft_fails": 2,
    "last_error": "",
    "wallet": 50000,
    "streak": 1,
@@ -161,17 +168,18 @@
     "qwen3.8-flash-free"
    ],
    "models_seen": 40,
-   "asof": "2026-09-12T07:38:26.191113+00:00"
+   "asof": "2026-09-12T07:57:46.715172+00:00"
   },
   {
    "alias": "p8",
    "name": "igrisplayzzz",
    "pool": "prim",
-   "remaining": 79719933,
-   "used": 203800,
+   "remaining": 79202505,
+   "used": 735648,
    "claimed": true,
    "cold": false,
-   "reqs": 3,
+   "reqs": 7,
+   "soft_fails": 3,
    "last_error": "",
    "wallet": 50000,
    "streak": 1,
@@ -184,7 +192,7 @@
     "qwen3.8-flash-free"
    ],
    "models_seen": 40,
-   "asof": "2026-09-12T07:38:28.323832+00:00"
+   "asof": "2026-09-12T07:57:49.671836+00:00"
   }
  ],
  "free_models": [
@@ -192,5 +200,28 @@
   "kira-mini-1.0",
   "mimo-v2.5-free",
   "qwen3.8-flash-free"
- ]
+ ],
+ "usage": {
+  "day": "2026-09-12",
+  "days": {
+   "2026-09-12": {
+    "qwen3.8-flash-free": {
+     "prompt": 639047,
+     "completion": 768,
+     "total": 639815,
+     "reqs": 7,
+     "est_reqs": 6
+    }
+   }
+  },
+  "models": {
+   "qwen3.8-flash-free": {
+    "prompt": 639047,
+    "completion": 768,
+    "total": 639815,
+    "reqs": 7,
+    "est_reqs": 6
+   }
+  }
+ }
 }
