@@ -12,8 +12,11 @@ h1{font-size:19px;margin:0;letter-spacing:1px}h1 b{color:var(--ok)}
 .kpi{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 16px;min-width:138px;flex:1 1 138px}
 .kpi span{display:block;color:var(--mut);font-size:10px;text-transform:uppercase;letter-spacing:1.2px}
 .kpi b{font-size:24px;font-weight:700}.kpi .g{color:var(--ok)}.kpi .y{color:var(--warn)}.kpi .p{color:var(--gold)}.kpi .r{color:var(--bad)}
-.zone{display:flex;align-items:center;gap:10px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 16px;margin:0 0 18px;font-size:13px;color:var(--mut);flex-wrap:wrap}
-.zone b{color:var(--warn);font-variant-numeric:tabular-nums;font-size:16px}
+.zone{display:flex;align-items:baseline;gap:10px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:9px 16px;margin:0 0 18px;font-size:13px}
+.zone b{color:var(--warn);font-variant-numeric:tabular-nums;font-size:17px;letter-spacing:.5px}
+.zone #ist{color:var(--fbc)}
+.zone .zl{color:var(--mut);font-size:10px;text-transform:uppercase;letter-spacing:1.5px}
+.zone .sep{color:var(--line);margin:0 2px}
 .sec{font-size:11px;letter-spacing:2px;color:var(--mut);text-transform:uppercase;margin:22px 0 10px;display:flex;align-items:center;gap:10px}
 .sec .n{font-size:10px;color:var(--txt);background:var(--card);border:1px solid var(--line);border-radius:10px;padding:1px 8px}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:13px}
@@ -92,7 +95,7 @@ h1{font-size:19px;margin:0;letter-spacing:1px}h1 b{color:var(--ok)}
  <div class="kpi"><span>Prim / Fb</span><b id="split">–</b></div>
  <div class="kpi"><span>Free models live</span><b class="g" id="fmn">–</b></div>
 </div>
-<div class="zone">⏱ Quota day = ICT 00:00 reset <b id="rst">–:–:–</b> left &nbsp;·&nbsp; ICT <span id="ict">–</span> &nbsp;·&nbsp; <b style="color:var(--fbc)">IST <span id="ist">–</span></b> (your clock) &nbsp;·&nbsp; your usage-day: <b style="color:var(--txt);font-size:13px" id="istwin">–</b> &nbsp;·&nbsp; streams estimated, badge "est"</div>
+<div class="zone"><span class="zl">RESET</span> <b id="rst">–:–:–</b><span class="sep">|</span><span class="zl">IST</span> <b id="ist">–:–</b></div>
 
 <div class="sec">Usage today <span class="n" id="uday">–</span></div>
 <div class="ubox" id="ubox"><div class="sub">waiting for first metered request…</div></div>
@@ -130,8 +133,6 @@ const PER=12;
 function tick(){
   const nr=nextICTMidnight(),now=Date.now();
   document.getElementById('rst').textContent=hms(nr-now);
-  const d=ictNow();
-  document.getElementById('ict').textContent=hhmm(d);
   const i=istNow();
   document.getElementById('ist').textContent=hhmm(i);
   LANES.forEach(x=>{const el=document.getElementById('cd-'+x.alias);if(!el)return;
@@ -157,8 +158,7 @@ function usageBox(){
   const el=document.getElementById('ubox');
   const day=USAGE.day||'',mods=USAGE.models||{};
   const names=Object.keys(mods);
-  document.getElementById('uday').textContent=day?('quota day '+day+' ICT · '+istWinOf(day)):'–';
-  if(day)document.getElementById('istwin').textContent=istWinOf(day);
+  document.getElementById('uday').textContent=day?istWinOf(day):'–';
   if(!names.length){el.innerHTML='<div class="sub">no metered traffic yet today — it appears here after the first pool request.</div>';return;}
   const max=Math.max(...names.map(n=>mods[n].total||1));
   let h=names.map(n=>{const e=mods[n];const pctv=Math.max(3,(e.total||0)/max*100);
