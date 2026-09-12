@@ -283,7 +283,9 @@ Promise.all([
   document.getElementById('lanes_n').textContent='ranked by remaining capacity';
   L.sort((a,b)=>(b.remaining||0)-(a.remaining||0));
   document.getElementById('lanes').innerHTML=L.map(lane).join('');
-  freeTable();usage();hist();renderCat();tick();
+  freeTable();usage();hist();
+  CAT={};(m.models||[]).filter(x=>x.status).forEach(x=>{(CAT[x.type]=CAT[x.type]||[]).push(x);});
+  renderCat();tick();
 }).catch(e=>document.getElementById('upd').textContent='data fetch failed: '+e);
 setInterval(tick,1000);
 </script></body></html>
