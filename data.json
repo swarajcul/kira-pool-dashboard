@@ -1,6 +1,6 @@
 {
- "updated": "2026-09-12T06:15:01.649439+00:00",
- "total_remaining": 483298606,
+ "updated": "2026-09-12T06:19:35.062366+00:00",
+ "total_remaining": 479190734,
  "lanes": [
   {
    "alias": "a1",
@@ -16,7 +16,15 @@
    "streak": 3,
    "last_claim": "2026-09-12",
    "cap": 80000000,
-   "asof": "2026-09-12T06:12:46.507982+00:00"
+   "free_models": [
+    "kira-mini-1.0",
+    "mimo-v2.5-free",
+    "hy3-free",
+    "qwen3.8-flash-free",
+    "glm-5.3-free"
+   ],
+   "models_seen": 40,
+   "asof": "2026-09-12T06:19:04.034529+00:00"
   },
   {
    "alias": "a2",
@@ -32,13 +40,21 @@
    "streak": 3,
    "last_claim": "2026-09-12",
    "cap": 80000000,
-   "asof": "2026-09-12T06:12:47.264975+00:00"
+   "free_models": [
+    "kira-mini-1.0",
+    "mimo-v2.5-free",
+    "hy3-free",
+    "qwen3.8-flash-free",
+    "glm-5.3-free"
+   ],
+   "models_seen": 40,
+   "asof": "2026-09-12T06:19:06.965986+00:00"
   },
   {
    "alias": "a3",
    "name": "Swarajsxy",
    "pool": "fb",
-   "remaining": 4107872,
+   "remaining": 0,
    "used": 0,
    "claimed": true,
    "cold": false,
@@ -48,7 +64,15 @@
    "streak": 3,
    "last_claim": "2026-09-12",
    "cap": 80000000,
-   "asof": "2026-09-12T06:12:48.006965+00:00"
+   "free_models": [
+    "kira-mini-1.0",
+    "mimo-v2.5-free",
+    "hy3-free",
+    "qwen3.8-flash-free",
+    "glm-5.3-free"
+   ],
+   "models_seen": 40,
+   "asof": "2026-09-12T06:19:10.247250+00:00"
   },
   {
    "alias": "a4",
@@ -64,7 +88,15 @@
    "streak": 2,
    "last_claim": "2026-09-12",
    "cap": 80000000,
-   "asof": "2026-09-12T06:12:48.740808+00:00"
+   "free_models": [
+    "kira-mini-1.0",
+    "mimo-v2.5-free",
+    "hy3-free",
+    "qwen3.8-flash-free",
+    "glm-5.3-free"
+   ],
+   "models_seen": 40,
+   "asof": "2026-09-12T06:19:13.685014+00:00"
   },
   {
    "alias": "p5",
@@ -80,7 +112,15 @@
    "streak": 1,
    "last_claim": "2026-09-12",
    "cap": 80000000,
-   "asof": "2026-09-12T06:12:49.497817+00:00"
+   "free_models": [
+    "kira-mini-1.0",
+    "mimo-v2.5-free",
+    "hy3-free",
+    "qwen3.8-flash-free",
+    "glm-5.3-free"
+   ],
+   "models_seen": 40,
+   "asof": "2026-09-12T06:19:16.680417+00:00"
   },
   {
    "alias": "p6",
@@ -96,7 +136,15 @@
    "streak": 1,
    "last_claim": "2026-09-12",
    "cap": 80000000,
-   "asof": "2026-09-12T06:12:50.253663+00:00"
+   "free_models": [
+    "kira-mini-1.0",
+    "mimo-v2.5-free",
+    "hy3-free",
+    "qwen3.8-flash-free",
+    "glm-5.3-free"
+   ],
+   "models_seen": 40,
+   "asof": "2026-09-12T06:19:19.631434+00:00"
   },
   {
    "alias": "p7",
@@ -112,7 +160,15 @@
    "streak": 1,
    "last_claim": "2026-09-12",
    "cap": 80000000,
-   "asof": "2026-09-12T06:12:50.971759+00:00"
+   "free_models": [
+    "kira-mini-1.0",
+    "mimo-v2.5-free",
+    "hy3-free",
+    "qwen3.8-flash-free",
+    "glm-5.3-free"
+   ],
+   "models_seen": 40,
+   "asof": "2026-09-12T06:19:22.550250+00:00"
   },
   {
    "alias": "p8",
@@ -128,7 +184,22 @@
    "streak": 1,
    "last_claim": "2026-09-12",
    "cap": 80000000,
-   "asof": "2026-09-12T06:12:51.706810+00:00"
+   "free_models": [
+    "kira-mini-1.0",
+    "mimo-v2.5-free",
+    "hy3-free",
+    "qwen3.8-flash-free",
+    "glm-5.3-free"
+   ],
+   "models_seen": 40,
+   "asof": "2026-09-12T06:19:27.466142+00:00"
   }
+ ],
+ "free_models": [
+  "glm-5.3-free",
+  "hy3-free",
+  "kira-mini-1.0",
+  "mimo-v2.5-free",
+  "qwen3.8-flash-free"
  ]
 }
