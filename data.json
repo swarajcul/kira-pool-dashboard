@@ -1,6 +1,6 @@
 {
- "updated": "2026-09-12T04:15:48.965927+00:00",
- "total_remaining": 217016340,
+ "updated": "2026-09-12T04:20:49.683060+00:00",
+ "total_remaining": 215837190,
  "lanes": [
   {
    "alias": "a1",
@@ -25,7 +25,7 @@
   {
    "alias": "a3",
    "pool": "fb",
-   "remaining": 57814323,
+   "remaining": 56635173,
    "used": 0,
    "claimed": true,
    "cold": false,
