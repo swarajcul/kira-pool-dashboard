@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-12T07:30:08.335641+00:00",
+ "updated": "2026-09-12T07:35:09.493612+00:00",
  "total_remaining": 476761998,
  "lanes": [
   {
@@ -23,7 +23,7 @@
     "qwen3.8-flash-free"
    ],
    "models_seen": 40,
-   "asof": "2026-09-12T07:27:37.550411+00:00"
+   "asof": "2026-09-12T07:32:55.677800+00:00"
   },
   {
    "alias": "a2",
@@ -46,7 +46,7 @@
     "qwen3.8-flash-free"
    ],
    "models_seen": 40,
-   "asof": "2026-09-12T07:27:39.710409+00:00"
+   "asof": "2026-09-12T07:32:57.830812+00:00"
   },
   {
    "alias": "a3",
@@ -69,7 +69,7 @@
     "qwen3.8-flash-free"
    ],
    "models_seen": 40,
-   "asof": "2026-09-12T07:27:41.870249+00:00"
+   "asof": "2026-09-12T07:32:59.941977+00:00"
   },
   {
    "alias": "a4",
@@ -92,17 +92,17 @@
     "qwen3.8-flash-free"
    ],
    "models_seen": 40,
-   "asof": "2026-09-12T07:27:43.976250+00:00"
+   "asof": "2026-09-12T07:33:02.138803+00:00"
   },
   {
    "alias": "p5",
    "name": "cursordata",
    "pool": "prim",
    "remaining": 79976466,
-   "used": 7427,
+   "used": 104592,
    "claimed": true,
    "cold": false,
-   "reqs": 2,
+   "reqs": 3,
    "last_error": "",
    "wallet": 50000,
    "streak": 1,
@@ -115,7 +115,7 @@
     "qwen3.8-flash-free"
    ],
    "models_seen": 40,
-   "asof": "2026-09-12T07:27:46.082247+00:00"
+   "asof": "2026-09-12T07:33:04.229802+00:00"
   },
   {
    "alias": "p6",
@@ -125,7 +125,7 @@
    "used": 3864,
    "claimed": true,
    "cold": false,
-   "reqs": 2,
+   "reqs": 3,
    "last_error": "",
    "wallet": 50000,
    "streak": 1,
@@ -138,14 +138,37 @@
     "qwen3.8-flash-free"
    ],
    "models_seen": 40,
-   "asof": "2026-09-12T07:27:48.192629+00:00"
+   "asof": "2026-09-12T07:33:06.398690+00:00"
   },
   {
    "alias": "p7",
    "name": "batacursor",
    "pool": "prim",
    "remaining": 79939204,
-   "used": 3718,
+   "used": 103537,
+   "claimed": true,
+   "cold": false,
+   "reqs": 3,
+   "last_error": "",
+   "wallet": 50000,
+   "streak": 1,
+   "last_claim": "2026-09-12",
+   "cap": 80000000,
+   "free_models": [
+    "kira-mini-1.0",
+    "mimo-v2.5-free",
+    "hy3-free",
+    "qwen3.8-flash-free"
+   ],
+   "models_seen": 40,
+   "asof": "2026-09-12T07:33:08.557650+00:00"
+  },
+  {
+   "alias": "p8",
+   "name": "igrisplayzzz",
+   "pool": "prim",
+   "remaining": 79972966,
+   "used": 98650,
    "claimed": true,
    "cold": false,
    "reqs": 2,
@@ -161,30 +184,7 @@
     "qwen3.8-flash-free"
    ],
    "models_seen": 40,
-   "asof": "2026-09-12T07:27:50.280784+00:00"
-  },
-  {
-   "alias": "p8",
-   "name": "igrisplayzzz",
-   "pool": "prim",
-   "remaining": 79972966,
-   "used": 0,
-   "claimed": true,
-   "cold": false,
-   "reqs": 1,
-   "last_error": "",
-   "wallet": 50000,
-   "streak": 1,
-   "last_claim": "2026-09-12",
-   "cap": 80000000,
-   "free_models": [
-    "kira-mini-1.0",
-    "mimo-v2.5-free",
-    "hy3-free",
-    "qwen3.8-flash-free"
-   ],
-   "models_seen": 40,
-   "asof": "2026-09-12T07:27:53.338635+00:00"
+   "asof": "2026-09-12T07:33:10.674576+00:00"
   }
  ],
  "free_models": [
