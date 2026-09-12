@@ -1,6 +1,6 @@
 {
- "updated": "2026-09-12T07:00:04.609353+00:00",
- "total_remaining": 476935186,
+ "updated": "2026-09-12T07:17:26.238394+00:00",
+ "total_remaining": 476765695,
  "lanes": [
   {
    "alias": "a1",
@@ -20,11 +20,10 @@
     "kira-mini-1.0",
     "mimo-v2.5-free",
     "hy3-free",
-    "qwen3.8-flash-free",
-    "glm-5.3-free"
+    "qwen3.8-flash-free"
    ],
    "models_seen": 40,
-   "asof": "2026-09-12T06:56:29.345549+00:00"
+   "asof": "2026-09-12T07:16:55.640016+00:00"
   },
   {
    "alias": "a2",
@@ -44,11 +43,10 @@
     "kira-mini-1.0",
     "mimo-v2.5-free",
     "hy3-free",
-    "qwen3.8-flash-free",
-    "glm-5.3-free"
+    "qwen3.8-flash-free"
    ],
    "models_seen": 40,
-   "asof": "2026-09-12T06:56:31.604535+00:00"
+   "asof": "2026-09-12T07:16:58.614334+00:00"
   },
   {
    "alias": "a3",
@@ -68,17 +66,16 @@
     "kira-mini-1.0",
     "mimo-v2.5-free",
     "hy3-free",
-    "qwen3.8-flash-free",
-    "glm-5.3-free"
+    "qwen3.8-flash-free"
    ],
    "models_seen": 40,
-   "asof": "2026-09-12T06:56:33.749144+00:00"
+   "asof": "2026-09-12T07:17:01.599312+00:00"
   },
   {
    "alias": "a4",
    "name": "rex855070",
    "pool": "fb",
-   "remaining": 79213136,
+   "remaining": 79197101,
    "used": 0,
    "claimed": true,
    "cold": false,
@@ -92,21 +89,20 @@
     "kira-mini-1.0",
     "mimo-v2.5-free",
     "hy3-free",
-    "qwen3.8-flash-free",
-    "glm-5.3-free"
+    "qwen3.8-flash-free"
    ],
    "models_seen": 40,
-   "asof": "2026-09-12T06:56:35.884319+00:00"
+   "asof": "2026-09-12T07:17:04.505305+00:00"
   },
   {
    "alias": "p5",
    "name": "cursordata",
    "pool": "prim",
-   "remaining": 79988206,
-   "used": 3730,
+   "remaining": 79980163,
+   "used": 7427,
    "claimed": true,
    "cold": false,
-   "reqs": 1,
+   "reqs": 2,
    "last_error": "",
    "wallet": 50000,
    "streak": 1,
@@ -116,21 +112,20 @@
     "kira-mini-1.0",
     "mimo-v2.5-free",
     "hy3-free",
-    "qwen3.8-flash-free",
-    "glm-5.3-free"
+    "qwen3.8-flash-free"
    ],
    "models_seen": 40,
-   "asof": "2026-09-12T06:56:38.046105+00:00"
+   "asof": "2026-09-12T07:17:07.441292+00:00"
   },
   {
    "alias": "p6",
    "name": "ausacursor",
    "pool": "prim",
-   "remaining": 79996136,
+   "remaining": 79915574,
    "used": 3864,
    "claimed": true,
    "cold": false,
-   "reqs": 1,
+   "reqs": 2,
    "last_error": "",
    "wallet": 50000,
    "streak": 1,
@@ -140,21 +135,20 @@
     "kira-mini-1.0",
     "mimo-v2.5-free",
     "hy3-free",
-    "qwen3.8-flash-free",
-    "glm-5.3-free"
+    "qwen3.8-flash-free"
    ],
    "models_seen": 40,
-   "asof": "2026-09-12T06:56:40.172347+00:00"
+   "asof": "2026-09-12T07:17:10.482279+00:00"
   },
   {
    "alias": "p7",
    "name": "batacursor",
    "pool": "prim",
-   "remaining": 79996311,
-   "used": 3689,
+   "remaining": 79939204,
+   "used": 3718,
    "claimed": true,
    "cold": false,
-   "reqs": 1,
+   "reqs": 2,
    "last_error": "",
    "wallet": 50000,
    "streak": 1,
@@ -164,17 +158,16 @@
     "kira-mini-1.0",
     "mimo-v2.5-free",
     "hy3-free",
-    "qwen3.8-flash-free",
-    "glm-5.3-free"
+    "qwen3.8-flash-free"
    ],
    "models_seen": 40,
-   "asof": "2026-09-12T06:56:42.268737+00:00"
+   "asof": "2026-09-12T07:17:13.452401+00:00"
   },
   {
    "alias": "p8",
    "name": "igrisplayzzz",
    "pool": "prim",
-   "remaining": 79980710,
+   "remaining": 79972966,
    "used": 0,
    "claimed": true,
    "cold": false,
@@ -188,11 +181,10 @@
     "kira-mini-1.0",
     "mimo-v2.5-free",
     "hy3-free",
-    "qwen3.8-flash-free",
-    "glm-5.3-free"
+    "qwen3.8-flash-free"
    ],
    "models_seen": 40,
-   "asof": "2026-09-12T06:56:44.472383+00:00"
+   "asof": "2026-09-12T07:17:16.444628+00:00"
   }
  ],
  "free_models": [
