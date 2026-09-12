@@ -92,7 +92,7 @@ h1{font-size:19px;margin:0;letter-spacing:1px}h1 b{color:var(--ok)}
  <div class="kpi"><span>Prim / Fb</span><b id="split">–</b></div>
  <div class="kpi"><span>Free models live</span><b class="g" id="fmn">–</b></div>
 </div>
-<div class="zone">⏱ Vietnam reset (quota 00:00 ICT · claim window) <b id="rst">–:–:–</b> &nbsp;·&nbsp; ICT now <span id="ict">–</span> &nbsp;·&nbsp; usage = pool-metered per model/day (streams estimated, badge "est")</div>
+<div class="zone">⏱ Quota day = ICT 00:00 reset <b id="rst">–:–:–</b> left &nbsp;·&nbsp; ICT <span id="ict">–</span> &nbsp;·&nbsp; <b style="color:var(--fbc)">IST <span id="ist">–</span></b> (your clock) &nbsp;·&nbsp; your usage-day: <b style="color:var(--txt);font-size:13px" id="istwin">–</b> &nbsp;·&nbsp; streams estimated, badge "est"</div>
 
 <div class="sec">Usage today <span class="n" id="uday">–</span></div>
 <div class="ubox" id="ubox"><div class="sub">waiting for first metered request…</div></div>
@@ -112,8 +112,17 @@ h1{font-size:19px;margin:0;letter-spacing:1px}h1 b{color:var(--ok)}
 <script>
 const M = n => n==null?'–' : n>=1e9 ? (n/1e9).toFixed(2)+'B' : n>=1e6 ? (n/1e6).toFixed(1)+'M' : n>=1e3 ? (n/1e3).toFixed(1)+'k' : ''+n;
 const V = v => v==null?'–' : v>=1e6 ? (v/1e6).toFixed(1)+'Mđ' : v>=1e3 ? (v/1e3).toFixed(1)+'kđ' : v+'đ';
-const ICT_OFF=7*3600e3;
+const ICT_OFF=7*3600e3, IST_OFF=5.5*3600e3;
 function ictNow(){return new Date(Date.now()+ICT_OFF);}
+function istNow(){return new Date(Date.now()+IST_OFF);}
+function hhmm(d){return String(d.getUTCHours()).padStart(2,'0')+':'+String(d.getUTCMinutes()).padStart(2,'0');}
+function istWinOf(dayStr){ // an ICT quota day runs 22:30→22:30 in IST
+  const [y,m,dd]=dayStr.split('-').map(Number);
+  const t=Date.UTC(y,m-1,dd)-7*3600e3;                 // 00:00 ICT as real UTC epoch
+  const a=new Date(t+IST_OFF), b=new Date(t+86400e3+IST_OFF); // viewed as IST digits
+  const md=d=>String(d.getUTCMonth()+1).padStart(2,'0')+'-'+String(d.getUTCDate()).padStart(2,'0');
+  return `${md(a)} ${hhmm(a)} → ${md(b)} ${hhmm(b)} IST`;
+}
 function nextICTMidnight(){const d=ictNow();return Date.UTC(d.getUTCFullYear(),d.getUTCMonth(),d.getUTCDate()+1)-ICT_OFF;}
 function hms(ms){if(ms<0)ms=0;const s=Math.floor(ms/1000);return String(Math.floor(s/3600)).padStart(2,'0')+':'+String(Math.floor(s%3600/60)).padStart(2,'0')+':'+String(s%60).padStart(2,'0');}
 let LANES=[],CAT={},TAB='chat',PAGE=0,USAGE={};
