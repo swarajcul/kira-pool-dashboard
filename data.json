@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-12T05:25:54.872884+00:00",
+ "updated": "2026-09-12T05:26:02.388310+00:00",
  "total_remaining": 356621333,
  "lanes": [
   {
@@ -56,10 +56,10 @@
    "alias": "p6",
    "pool": "prim",
    "remaining": 80000000,
-   "used": 0,
+   "used": 3864,
    "claimed": true,
    "cold": false,
-   "reqs": 0,
+   "reqs": 1,
    "last_error": ""
   }
  ]
