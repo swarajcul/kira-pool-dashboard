@@ -1,16 +1,16 @@
 {
- "updated": "2026-09-12T06:45:02.772817+00:00",
- "total_remaining": 477864637,
+ "updated": "2026-09-12T07:00:04.609353+00:00",
+ "total_remaining": 476935186,
  "lanes": [
   {
    "alias": "a1",
    "name": "Swarajigris",
    "pool": "fb",
-   "remaining": 78662784,
+   "remaining": 77760687,
    "used": 11119,
    "claimed": true,
    "cold": false,
-   "reqs": 3,
+   "reqs": 5,
    "last_error": "",
    "wallet": 50000,
    "streak": 3,
@@ -24,7 +24,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 40,
-   "asof": "2026-09-12T06:40:31.449628+00:00"
+   "asof": "2026-09-12T06:56:29.345549+00:00"
   },
   {
    "alias": "a2",
@@ -48,7 +48,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 40,
-   "asof": "2026-09-12T06:40:33.669379+00:00"
+   "asof": "2026-09-12T06:56:31.604535+00:00"
   },
   {
    "alias": "a3",
@@ -72,7 +72,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 40,
-   "asof": "2026-09-12T06:40:35.750443+00:00"
+   "asof": "2026-09-12T06:56:33.749144+00:00"
   },
   {
    "alias": "a4",
@@ -96,13 +96,13 @@
     "glm-5.3-free"
    ],
    "models_seen": 40,
-   "asof": "2026-09-12T06:40:37.953824+00:00"
+   "asof": "2026-09-12T06:56:35.884319+00:00"
   },
   {
    "alias": "p5",
    "name": "cursordata",
    "pool": "prim",
-   "remaining": 79996270,
+   "remaining": 79988206,
    "used": 3730,
    "claimed": true,
    "cold": false,
@@ -120,7 +120,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 40,
-   "asof": "2026-09-12T06:40:40.116154+00:00"
+   "asof": "2026-09-12T06:56:38.046105+00:00"
   },
   {
    "alias": "p6",
@@ -144,7 +144,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 40,
-   "asof": "2026-09-12T06:40:42.189759+00:00"
+   "asof": "2026-09-12T06:56:40.172347+00:00"
   },
   {
    "alias": "p7",
@@ -168,13 +168,13 @@
     "glm-5.3-free"
    ],
    "models_seen": 40,
-   "asof": "2026-09-12T06:40:44.309847+00:00"
+   "asof": "2026-09-12T06:56:42.268737+00:00"
   },
   {
    "alias": "p8",
    "name": "igrisplayzzz",
    "pool": "prim",
-   "remaining": 80000000,
+   "remaining": 79980710,
    "used": 0,
    "claimed": true,
    "cold": false,
@@ -192,7 +192,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 40,
-   "asof": "2026-09-12T06:40:46.449857+00:00"
+   "asof": "2026-09-12T06:56:44.472383+00:00"
   }
  ],
  "free_models": [
