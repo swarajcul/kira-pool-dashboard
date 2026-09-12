@@ -1,16 +1,16 @@
 {
- "updated": "2026-09-12T17:45:20.322860+00:00",
- "total_remaining": 628035506,
+ "updated": "2026-09-12T17:50:20.793258+00:00",
+ "total_remaining": 626102271,
  "lanes": [
   {
    "alias": "a1",
    "name": "Swarajigris",
    "pool": "fb",
-   "remaining": 79785213,
-   "used": 901094,
+   "remaining": 79649194,
+   "used": 961574,
    "claimed": true,
    "cold": false,
-   "reqs": 20,
+   "reqs": 23,
    "soft_fails": 2,
    "last_error": "",
    "wallet": 50000,
@@ -25,13 +25,13 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T17:43:19.915904+00:00"
+   "asof": "2026-09-12T17:48:37.014537+00:00"
   },
   {
    "alias": "a2",
    "name": "cursorttr",
    "pool": "fb",
-   "remaining": 79772112,
+   "remaining": 79582621,
    "used": 364366,
    "claimed": true,
    "cold": false,
@@ -50,13 +50,13 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T17:43:22.157697+00:00"
+   "asof": "2026-09-12T17:48:39.169718+00:00"
   },
   {
    "alias": "a3",
    "name": "Swarajsxy",
    "pool": "fb",
-   "remaining": 74019428,
+   "remaining": 72552634,
    "used": 416,
    "claimed": true,
    "cold": false,
@@ -75,17 +75,17 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T17:43:24.246485+00:00"
+   "asof": "2026-09-12T17:48:41.253128+00:00"
   },
   {
    "alias": "a4",
    "name": "rex855070",
    "pool": "fb",
-   "remaining": 79763010,
-   "used": 1917334,
+   "remaining": 79622079,
+   "used": 1984072,
    "claimed": true,
    "cold": false,
-   "reqs": 24,
+   "reqs": 26,
    "soft_fails": 3,
    "last_error": "",
    "wallet": 50000,
@@ -100,7 +100,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T17:43:26.400515+00:00"
+   "asof": "2026-09-12T17:48:43.407303+00:00"
   },
   {
    "alias": "p5",
@@ -125,7 +125,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T17:43:28.499281+00:00"
+   "asof": "2026-09-12T17:48:45.499303+00:00"
   },
   {
    "alias": "p6",
@@ -150,7 +150,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T17:43:30.660898+00:00"
+   "asof": "2026-09-12T17:48:47.652288+00:00"
   },
   {
    "alias": "p7",
@@ -175,7 +175,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T17:43:32.791558+00:00"
+   "asof": "2026-09-12T17:48:49.758006+00:00"
   },
   {
    "alias": "p8",
@@ -200,7 +200,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T17:43:34.899863+00:00"
+   "asof": "2026-09-12T17:48:51.898003+00:00"
   }
  ],
  "free_models": [
@@ -231,21 +231,21 @@
    },
    "2026-09-13": {
     "qwen3.8-flash-free": {
-     "prompt": 5402878,
-     "completion": 74051,
-     "total": 5476929,
-     "reqs": 150,
-     "est_reqs": 141
+     "prompt": 5528994,
+     "completion": 75153,
+     "total": 5604147,
+     "reqs": 154,
+     "est_reqs": 145
     }
    }
   },
   "models": {
    "qwen3.8-flash-free": {
-    "prompt": 5402878,
-    "completion": 74051,
-    "total": 5476929,
-    "reqs": 150,
-    "est_reqs": 141
+    "prompt": 5528994,
+    "completion": 75153,
+    "total": 5604147,
+    "reqs": 154,
+    "est_reqs": 145
    }
   }
  }
