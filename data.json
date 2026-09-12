@@ -1,18 +1,18 @@
 {
- "updated": "2026-09-12T14:20:48.431879+00:00",
- "total_remaining": 418836307,
+ "updated": "2026-09-12T14:25:48.904621+00:00",
+ "total_remaining": 418816792,
  "lanes": [
   {
    "alias": "a1",
    "name": "Swarajigris",
    "pool": "fb",
    "remaining": 77011825,
-   "used": 598676,
+   "used": 599180,
    "claimed": true,
-   "cold": false,
-   "reqs": 11,
+   "cold": true,
+   "reqs": 12,
    "soft_fails": 2,
-   "last_error": "",
+   "last_error": "relay-error: ConnectionError: client dropped before response",
    "wallet": 50000,
    "streak": 3,
    "last_claim": "2026-09-12",
@@ -25,7 +25,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T14:15:53.318360+00:00"
+   "asof": "2026-09-12T14:21:16.794883+00:00"
   },
   {
    "alias": "a2",
@@ -50,7 +50,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T14:15:55.594364+00:00"
+   "asof": "2026-09-12T14:21:18.908745+00:00"
   },
   {
    "alias": "a3",
@@ -75,18 +75,18 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T14:15:58.062364+00:00"
+   "asof": "2026-09-12T14:21:21.374613+00:00"
   },
   {
    "alias": "a4",
    "name": "rex855070",
    "pool": "fb",
    "remaining": 77070678,
-   "used": 1569744,
+   "used": 1593265,
    "claimed": true,
    "cold": false,
-   "reqs": 15,
-   "soft_fails": 2,
+   "reqs": 16,
+   "soft_fails": 3,
    "last_error": "",
    "wallet": 50000,
    "streak": 2,
@@ -100,19 +100,19 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T14:16:05.639265+00:00"
+   "asof": "2026-09-12T14:21:23.480603+00:00"
   },
   {
    "alias": "p5",
    "name": "cursordata",
    "pool": "prim",
    "remaining": 65672710,
-   "used": 10460612,
+   "used": 10461116,
    "claimed": true,
-   "cold": false,
-   "reqs": 92,
+   "cold": true,
+   "reqs": 93,
    "soft_fails": 7,
-   "last_error": "",
+   "last_error": "relay-error: ConnectionError: client dropped before response",
    "wallet": 50000,
    "streak": 1,
    "last_claim": "2026-09-12",
@@ -125,19 +125,19 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T14:16:07.867270+00:00"
+   "asof": "2026-09-12T14:21:25.550702+00:00"
   },
   {
    "alias": "p6",
    "name": "ausacursor",
    "pool": "prim",
-   "remaining": 66025649,
-   "used": 10203171,
+   "remaining": 66006134,
+   "used": 10288570,
    "claimed": true,
-   "cold": false,
-   "reqs": 83,
+   "cold": true,
+   "reqs": 89,
    "soft_fails": 5,
-   "last_error": "",
+   "last_error": "relay-error: ConnectionError: client dropped before response",
    "wallet": 50000,
    "streak": 1,
    "last_claim": "2026-09-12",
@@ -150,19 +150,19 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T14:16:09.970476+00:00"
+   "asof": "2026-09-12T14:21:30.166373+00:00"
   },
   {
    "alias": "p7",
    "name": "batacursor",
    "pool": "prim",
    "remaining": 65699336,
-   "used": 10760298,
+   "used": 10784328,
    "claimed": true,
-   "cold": false,
-   "reqs": 75,
+   "cold": true,
+   "reqs": 77,
    "soft_fails": 3,
-   "last_error": "",
+   "last_error": "relay-error: ConnectionError: client dropped before response",
    "wallet": 50000,
    "streak": 1,
    "last_claim": "2026-09-12",
@@ -175,17 +175,17 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T14:16:12.461495+00:00"
+   "asof": "2026-09-12T14:21:32.273852+00:00"
   },
   {
    "alias": "p8",
    "name": "igrisplayzzz",
    "pool": "prim",
    "remaining": 67356109,
-   "used": 9605892,
+   "used": 9753963,
    "claimed": true,
-   "cold": true,
-   "reqs": 64,
+   "cold": false,
+   "reqs": 65,
    "soft_fails": 5,
    "last_error": "",
    "wallet": 50000,
@@ -200,7 +200,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T14:16:14.656474+00:00"
+   "asof": "2026-09-12T14:21:34.393836+00:00"
   }
  ],
  "free_models": [
@@ -215,11 +215,11 @@
   "days": {
    "2026-09-12": {
     "qwen3.8-flash-free": {
-     "prompt": 38481076,
-     "completion": 160005,
-     "total": 38641081,
-     "reqs": 277,
-     "est_reqs": 267
+     "prompt": 38760353,
+     "completion": 162757,
+     "total": 38923110,
+     "reqs": 289,
+     "est_reqs": 274
     },
     "hy3-free": {
      "prompt": 4088,
@@ -232,11 +232,11 @@
   },
   "models": {
    "qwen3.8-flash-free": {
-    "prompt": 38481076,
-    "completion": 160005,
-    "total": 38641081,
-    "reqs": 277,
-    "est_reqs": 267
+    "prompt": 38760353,
+    "completion": 162757,
+    "total": 38923110,
+    "reqs": 289,
+    "est_reqs": 274
    },
    "hy3-free": {
     "prompt": 4088,
