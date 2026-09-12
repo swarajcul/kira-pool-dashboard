@@ -1,9 +1,10 @@
 {
- "updated": "2026-09-12T05:35:55.464901+00:00",
- "total_remaining": 514782537,
+ "updated": "2026-09-12T05:40:23.556010+00:00",
+ "total_remaining": 514660799,
  "lanes": [
   {
    "alias": "a1",
+   "name": "Swarajigris",
    "pool": "fb",
    "remaining": 79988881,
    "used": 11119,
@@ -14,6 +15,7 @@
   },
   {
    "alias": "a2",
+   "name": "cursorttr",
    "pool": "fb",
    "remaining": 0,
    "used": 0,
@@ -24,8 +26,9 @@
   },
   {
    "alias": "a3",
+   "name": "Swarajsxy",
    "pool": "fb",
-   "remaining": 35588114,
+   "remaining": 35470065,
    "used": 0,
    "claimed": true,
    "cold": false,
@@ -34,6 +37,7 @@
   },
   {
    "alias": "a4",
+   "name": "rex855070",
    "pool": "fb",
    "remaining": 79213136,
    "used": 0,
@@ -44,6 +48,7 @@
   },
   {
    "alias": "p5",
+   "name": "cursordata",
    "pool": "prim",
    "remaining": 79996270,
    "used": 3730,
@@ -54,6 +59,7 @@
   },
   {
    "alias": "p6",
+   "name": "ausacursor",
    "pool": "prim",
    "remaining": 79996136,
    "used": 3864,
@@ -64,8 +70,9 @@
   },
   {
    "alias": "p7",
+   "name": "batacursor",
    "pool": "prim",
-   "remaining": 80000000,
+   "remaining": 79996311,
    "used": 3689,
    "claimed": true,
    "cold": false,
@@ -74,6 +81,7 @@
   },
   {
    "alias": "p8",
+   "name": "igrisplayzzz",
    "pool": "prim",
    "remaining": 80000000,
    "used": 0,
