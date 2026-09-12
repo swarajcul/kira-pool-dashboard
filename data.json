@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-12T09:10:18.893192+00:00",
+ "updated": "2026-09-12T09:10:30.529737+00:00",
  "total_remaining": 461036181,
  "lanes": [
   {
@@ -157,10 +157,10 @@
    "name": "batacursor",
    "pool": "prim",
    "remaining": 77119518,
-   "used": 2370247,
+   "used": 2540386,
    "claimed": true,
    "cold": false,
-   "reqs": 22,
+   "reqs": 23,
    "soft_fails": 2,
    "last_error": "",
    "wallet": 50000,
@@ -215,11 +215,11 @@
   "days": {
    "2026-09-12": {
     "qwen3.8-flash-free": {
-     "prompt": 8543777,
-     "completion": 30760,
-     "total": 8574537,
-     "reqs": 72,
-     "est_reqs": 71
+     "prompt": 8713852,
+     "completion": 30824,
+     "total": 8744676,
+     "reqs": 73,
+     "est_reqs": 72
     },
     "hy3-free": {
      "prompt": 4088,
@@ -232,11 +232,11 @@
   },
   "models": {
    "qwen3.8-flash-free": {
-    "prompt": 8543777,
-    "completion": 30760,
-    "total": 8574537,
-    "reqs": 72,
-    "est_reqs": 71
+    "prompt": 8713852,
+    "completion": 30824,
+    "total": 8744676,
+    "reqs": 73,
+    "est_reqs": 72
    },
    "hy3-free": {
     "prompt": 4088,
