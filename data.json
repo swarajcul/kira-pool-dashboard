@@ -1,6 +1,6 @@
 {
- "updated": "2026-09-12T19:50:34.874572+00:00",
- "total_remaining": 599122391,
+ "updated": "2026-09-12T19:55:35.272132+00:00",
+ "total_remaining": 597720790,
  "lanes": [
   {
    "alias": "a1",
@@ -25,7 +25,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T19:46:23.277296+00:00"
+   "asof": "2026-09-12T19:51:45.250282+00:00"
   },
   {
    "alias": "a2",
@@ -50,7 +50,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T19:46:25.859304+00:00"
+   "asof": "2026-09-12T19:51:48.878614+00:00"
   },
   {
    "alias": "a3",
@@ -75,7 +75,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T19:46:28.433289+00:00"
+   "asof": "2026-09-12T19:51:52.457394+00:00"
   },
   {
    "alias": "a4",
@@ -100,13 +100,13 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T19:46:31.042307+00:00"
+   "asof": "2026-09-12T19:51:56.087373+00:00"
   },
   {
    "alias": "p5",
    "name": "cursordata",
    "pool": "prim",
-   "remaining": 72339284,
+   "remaining": 72037056,
    "used": 19382650,
    "claimed": true,
    "cold": false,
@@ -125,13 +125,13 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T19:46:33.652448+00:00"
+   "asof": "2026-09-12T19:51:59.645374+00:00"
   },
   {
    "alias": "p6",
    "name": "ausacursor",
    "pool": "prim",
-   "remaining": 72379758,
+   "remaining": 71918154,
    "used": 19626554,
    "claimed": true,
    "cold": false,
@@ -150,13 +150,13 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T19:46:36.231086+00:00"
+   "asof": "2026-09-12T19:52:03.253040+00:00"
   },
   {
    "alias": "p7",
    "name": "batacursor",
    "pool": "prim",
-   "remaining": 72250409,
+   "remaining": 71933839,
    "used": 19519125,
    "claimed": true,
    "cold": false,
@@ -175,13 +175,13 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T19:46:38.792527+00:00"
+   "asof": "2026-09-12T19:52:06.884880+00:00"
   },
   {
    "alias": "p8",
    "name": "igrisplayzzz",
    "pool": "prim",
-   "remaining": 72239290,
+   "remaining": 71918091,
    "used": 19842196,
    "claimed": true,
    "cold": false,
@@ -200,7 +200,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T19:46:41.349085+00:00"
+   "asof": "2026-09-12T19:52:10.644871+00:00"
   }
  ],
  "free_models": [
