@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-12T08:40:16.250009+00:00",
+ "updated": "2026-09-12T08:45:16.712330+00:00",
  "total_remaining": 462093530,
  "lanes": [
   {
@@ -25,7 +25,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 40,
-   "asof": "2026-09-12T08:39:58.158733+00:00"
+   "asof": "2026-09-12T08:45:15.642392+00:00"
   },
   {
    "alias": "a2",
@@ -109,7 +109,7 @@
    "remaining": 78426516,
    "used": 1104200,
    "claimed": true,
-   "cold": true,
+   "cold": false,
    "reqs": 18,
    "soft_fails": 3,
    "last_error": "",
@@ -182,10 +182,10 @@
    "name": "igrisplayzzz",
    "pool": "prim",
    "remaining": 75115588,
-   "used": 3643707,
+   "used": 3948741,
    "claimed": true,
    "cold": false,
-   "reqs": 27,
+   "reqs": 29,
    "soft_fails": 4,
    "last_error": "",
    "wallet": 50000,
@@ -215,11 +215,11 @@
   "days": {
    "2026-09-12": {
     "qwen3.8-flash-free": {
-     "prompt": 6265729,
-     "completion": 15744,
-     "total": 6281473,
-     "reqs": 47,
-     "est_reqs": 46
+     "prompt": 6569531,
+     "completion": 16976,
+     "total": 6586507,
+     "reqs": 49,
+     "est_reqs": 48
     },
     "hy3-free": {
      "prompt": 4088,
@@ -232,11 +232,11 @@
   },
   "models": {
    "qwen3.8-flash-free": {
-    "prompt": 6265729,
-    "completion": 15744,
-    "total": 6281473,
-    "reqs": 47,
-    "est_reqs": 46
+    "prompt": 6569531,
+    "completion": 16976,
+    "total": 6586507,
+    "reqs": 49,
+    "est_reqs": 48
    },
    "hy3-free": {
     "prompt": 4088,
