@@ -1,6 +1,6 @@
 {
- "updated": "2026-09-12T05:55:58.105126+00:00",
- "total_remaining": 501015107,
+ "updated": "2026-09-12T05:59:30.743800+00:00",
+ "total_remaining": 495286175,
  "lanes": [
   {
    "alias": "a1",
@@ -11,7 +11,12 @@
    "claimed": true,
    "cold": false,
    "reqs": 3,
-   "last_error": ""
+   "last_error": "",
+   "wallet": 50000,
+   "streak": 3,
+   "last_claim": "2026-09-12",
+   "cap": 80000000,
+   "asof": "2026-09-12T05:57:21.303041+00:00"
   },
   {
    "alias": "a2",
@@ -22,18 +27,28 @@
    "claimed": true,
    "cold": false,
    "reqs": 0,
-   "last_error": ""
+   "last_error": "",
+   "wallet": 200146,
+   "streak": 3,
+   "last_claim": "2026-09-12",
+   "cap": 80000000,
+   "asof": "2026-09-12T05:57:22.908822+00:00"
   },
   {
    "alias": "a3",
    "name": "Swarajsxy",
    "pool": "fb",
-   "remaining": 21824373,
+   "remaining": 16095441,
    "used": 0,
    "claimed": true,
    "cold": false,
    "reqs": 0,
-   "last_error": ""
+   "last_error": "",
+   "wallet": 0,
+   "streak": 3,
+   "last_claim": "2026-09-12",
+   "cap": 80000000,
+   "asof": "2026-09-12T05:57:24.645831+00:00"
   },
   {
    "alias": "a4",
@@ -44,7 +59,12 @@
    "claimed": true,
    "cold": false,
    "reqs": 0,
-   "last_error": ""
+   "last_error": "",
+   "wallet": 50000,
+   "streak": 2,
+   "last_claim": "2026-09-12",
+   "cap": 80000000,
+   "asof": "2026-09-12T05:57:27.091825+00:00"
   },
   {
    "alias": "p5",
@@ -55,7 +75,12 @@
    "claimed": true,
    "cold": false,
    "reqs": 1,
-   "last_error": ""
+   "last_error": "",
+   "wallet": 50000,
+   "streak": 1,
+   "last_claim": "2026-09-12",
+   "cap": 80000000,
+   "asof": "2026-09-12T05:57:28.661812+00:00"
   },
   {
    "alias": "p6",
@@ -66,7 +91,12 @@
    "claimed": true,
    "cold": false,
    "reqs": 1,
-   "last_error": ""
+   "last_error": "",
+   "wallet": 50000,
+   "streak": 1,
+   "last_claim": "2026-09-12",
+   "cap": 80000000,
+   "asof": "2026-09-12T05:57:30.223954+00:00"
   },
   {
    "alias": "p7",
@@ -77,7 +107,12 @@
    "claimed": true,
    "cold": false,
    "reqs": 1,
-   "last_error": ""
+   "last_error": "",
+   "wallet": 50000,
+   "streak": 1,
+   "last_claim": "2026-09-12",
+   "cap": 80000000,
+   "asof": "2026-09-12T05:57:31.877709+00:00"
   },
   {
    "alias": "p8",
@@ -88,7 +123,12 @@
    "claimed": true,
    "cold": false,
    "reqs": 0,
-   "last_error": ""
+   "last_error": "",
+   "wallet": 50000,
+   "streak": 1,
+   "last_claim": "2026-09-12",
+   "cap": 80000000,
+   "asof": "2026-09-12T05:57:33.440560+00:00"
   }
  ]
 }

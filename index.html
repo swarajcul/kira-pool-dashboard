@@ -1,52 +1,110 @@
 <!DOCTYPE html>
 <html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Kira Pool — live lanes</title>
+<title>KIRA POOL — Command Center</title>
 <meta http-equiv="refresh" content="60">
 <style>
-:root{--bg:#0b0e14;--card:#141926;--txt:#e6e9ef;--mut:#8a93a6;--ok:#2ee6a8;--warn:#f5c542;--bad:#ff5d5d;--cold:#a06bff;--fb:#4da3ff}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--txt);font:15px/1.5 "Segoe UI",system-ui,sans-serif;padding:24px}
-h1{font-size:20px;margin:0 0 4px;letter-spacing:.5px}.sub{color:var(--mut);font-size:12px;margin-bottom:20px}
-.big{font-size:34px;font-weight:700;color:var(--ok)}.bignum{display:flex;gap:28px;flex-wrap:wrap;margin-bottom:22px}
-.bignum>div{background:var(--card);border:1px solid #1f2636;border-radius:10px;padding:14px 20px;min-width:170px}
-.bignum span{display:block;color:var(--mut);font-size:11px;text-transform:uppercase;letter-spacing:1px}
-.lanes{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}
-.lane{background:var(--card);border:1px solid #1f2636;border-radius:10px;padding:14px}
-.lane .id{font-weight:700;display:flex;justify-content:space-between;align-items:center}
-.pill{font-size:10px;padding:2px 8px;border-radius:20px;font-weight:600}
-.prim{background:rgba(46,230,168,.15);color:var(--ok)}.fb{background:rgba(77,163,255,.15);color:var(--fb)}
-.bar{height:8px;background:#1f2636;border-radius:6px;margin:10px 0 6px;overflow:hidden}
-.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--ok),var(--warn))}
-.row{display:flex;justify-content:space-between;font-size:12px;color:var(--mut)}
-.st{margin-top:8px;font-size:12px}.g{color:var(--ok)}.r{color:var(--bad)}.c{color:var(--cold)}
-.foot{margin-top:24px;color:var(--mut);font-size:11px}
+:root{--bg:#07090f;--card:#11151f;--line:#1d2433;--txt:#e6e9ef;--mut:#8a93a6;--ok:#2ee6a8;--warn:#f5c542;--bad:#ff5d5d;--cold:#a06bff;--fbc:#4da3ff;--gold:#ffc94d}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(1200px 600px at 70% -10%,#0f1626 0%,var(--bg) 55%);color:var(--txt);font:15px/1.5 "Segoe UI",system-ui,sans-serif;padding:22px}
+h1{font-size:19px;margin:0;letter-spacing:1px}h1 b{color:var(--ok)}
+.sub{color:var(--mut);font-size:12px;margin:2px 0 18px}
+.kpis{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:8px}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 18px;min-width:150px}
+.kpi span{display:block;color:var(--mut);font-size:10px;text-transform:uppercase;letter-spacing:1.2px}
+.kpi b{font-size:26px;font-weight:700}.kpi .g{color:var(--ok)}.kpi .y{color:var(--warn)}.kpi .p{color:var(--gold)}
+.zone{display:flex;align-items:center;gap:10px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 16px;margin:0 0 18px;font-size:13px;color:var(--mut)}
+.zone b{color:var(--warn);font-variant-numeric:tabular-nums;font-size:16px}
+.sec{font-size:11px;letter-spacing:2px;color:var(--mut);text-transform:uppercase;margin:18px 0 10px}
+.lanes{display:grid;grid-template-columns:repeat(auto-fill,minmax(285px,1fr));gap:13px}
+.lane{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 15px 13px;position:relative;overflow:hidden}
+.lane.primz{border-color:rgba(46,230,168,.25)}
+.lane::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--ok)}
+.lane.fbl::before{background:var(--fbc)}
+.lane.coldl::before{background:var(--cold)}
+.lane.drainl::before{background:var(--bad)}
+.top{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.nm{font-weight:700;font-size:15px}
+.pill{font-size:9px;padding:2px 8px;border-radius:20px;font-weight:700;letter-spacing:.5px}
+.prim{background:rgba(46,230,168,.14);color:var(--ok)}.fb{background:rgba(77,163,255,.14);color:var(--fbc)}
+.bar{height:9px;background:#1a2130;border-radius:6px;margin:11px 0 5px;overflow:hidden}
+.bar i{display:block;height:100%;border-radius:6px;background:linear-gradient(90deg,#19c37d,#2ee6a8 60%,#8af5c9)}
+.bar.low i{background:linear-gradient(90deg,#ff8a5d,#f5c542)}
+.bar.zero i{background:var(--bad)}
+.r{display:flex;justify-content:space-between;font-size:12px;color:var(--mut)}
+.foot{display:flex;justify-content:space-between;align-items:center;margin-top:10px;border-top:1px dashed var(--line);padding-top:9px}
+.wal{font-size:12px;color:var(--gold);font-weight:600}
+.cd{font-size:12px;color:var(--mut);font-variant-numeric:tabular-nums}
+.cd b{color:var(--txt)}
+.stt{margin-top:7px;font-size:12px}.g{color:var(--ok)}.r{color:var(--bad)}.c{color:var(--cold)}
+.err{font-size:11px;color:var(--bad);margin-top:4px;word-break:break-all}
+.tip{color:#5b6478;font-size:11px;margin-top:20px}
 </style></head><body>
-<h1>◈ KIRA POOL — lane status</h1>
+<h1>◈ KIRA <b>POOL</b> — command center</h1>
 <div class="sub" id="upd">loading…</div>
-<div class="bignum">
- <div><span>Pool remaining today</span><div class="big" id="tot">–</div></div>
- <div><span>Lanes live</span><div class="big" id="live">–</div></div>
- <div><span>Prim / Fb</span><div class="big" id="split">–</div></div>
- <div><span>Farm ceiling</span><div class="big" id="ceil">–</div></div>
+
+<div class="kpis">
+ <div class="kpi"><span>Free left today</span><b class="g" id="tot">–</b></div>
+ <div class="kpi"><span>Wallet tokens</span><b class="p" id="wal">–</b></div>
+ <div class="kpi"><span>Live lanes</span><b id="live">–</b></div>
+ <div class="kpi"><span>Prim / Fb</span><b id="split">–</b></div>
+ <div class="kpi"><span>Ceiling</span><b class="y" id="ceil">–</b></div>
 </div>
-<div class="lanes" id="lanes"></div>
-<div class="foot">auto-refresh 60s · aliases only, no credentials or emails on this page · data.json</div>
+<div class="zone">⏱ Vietnam reset (quota 00:00 · claim window) <b id="rst">–:–:–</b> &nbsp;·&nbsp; local <span id="ict">–</span></div>
+
+<div class="sec">Primary tier — traffic first</div>
+<div class="lanes" id="prim"></div>
+<div class="sec">Fallback tier</div>
+<div class="lanes" id="fb"></div>
+
+<div class="tip">auto-refresh 60s · counts only — no emails, keys, or credentials leave this VPS · reset clock follows Asia/Ho_Chi_Minh (UTC+7)</div>
+
 <script>
-const M = n => n>=1e6 ? (n/1e6).toFixed(1)+'M' : n>=1e3 ? (n/1e3).toFixed(0)+'k' : (n??'–');
+const M = n => n==null?'–' : n>=1e6 ? (n/1e6).toFixed(1)+'M' : n>=1e3 ? (n/1e3).toFixed(0)+'k' : ''+n;
+const ICT_OFF = 7*3600e3;
+function ictNow(){ return new Date(Date.now()+ICT_OFF); } // fake-UTC = ICT wall time
+function nextICTMidnight(){ const d=ictNow(); const n=new Date(Date.UTC(d.getUTCFullYear(),d.getUTCMonth(),d.getUTCDate()+1)); return n.getTime()-ICT_OFF; }
+function hms(ms){ if(ms<0)ms=0; const s=Math.floor(ms/1000); return String(Math.floor(s/3600)).padStart(2,'0')+':'+String(Math.floor(s%3600/60)).padStart(2,'0')+':'+String(s%60).padStart(2,'0'); }
+let LANES=[];
+function tick(){
+  const nr=nextICTMidnight(), now=Date.now();
+  document.getElementById('rst').textContent=hms(nr-now);
+  const d=ictNow();
+  document.getElementById('ict').textContent=String(d.getUTCHours()).padStart(2,'0')+':'+String(d.getUTCMinutes()).padStart(2,'0')+' ICT';
+  LANES.forEach(x=>{
+    const el=document.getElementById('cd-'+x.alias); if(!el)return;
+    if(x.claimed){ el.innerHTML='claim in <b>'+hms(nr-now)+'</b>'; }
+    else { el.innerHTML='<b style="color:var(--ok)">claim ready now</b>'; }
+  });
+}
+function card(x){
+  const cap=x.cap||80e6, pct=x.remaining==null?0:Math.max(0,Math.min(100,x.remaining/cap*100));
+  const cls=x.cold?'coldl':(x.remaining||0)<2e6?'drainl':(pct<30?'low':'');
+  const st=x.cold?'<span class="stt c">❄ COOLDOWN — skipped by router</span>'
+        :x.claimed?'<span class="stt g">✓ claimed '+(x.streak?('#'+x.streak):'')+'</span>'
+        :'<span class="stt r">✗ unclaimed</span>';
+  const lane=x.pool==='prim'?'primz fbl':'fbl';
+  return `<div class="lane ${x.pool==='prim'?'primz':'fbl'} ${cls}">
+   <div class="top"><div class="nm">${x.name}</div><span class="pill ${x.pool}">${x.pool.toUpperCase()}</span></div>
+   <div class="bar ${pct<30?'low':''} ${x.remaining==0?'zero':''}"><i style="width:${pct}%"></i></div>
+   <div class="r"><span>${M(x.remaining)} / ${M(cap)} free</span><span>used ${M(x.used)}</span></div>
+   <div class="r" style="margin-top:2px"><span>reqs ${x.reqs??0}</span><span>${x.last_claim?('claimed '+x.last_claim.slice(5)):'—'}</span></div>
+   ${st}
+   ${x.last_error?('<div class="err">⚠ '+x.last_error.slice(0,42)+'</div>'):''}
+   <div class="foot"><div class="wal">🜲 ${x.wallet!=null?M(x.wallet)+' wallet':'wallet –'}</div><div class="cd" id="cd-${x.alias}">–</div></div>
+  </div>`;
+}
 fetch('data.json?ts='+Date.now()).then(r=>r.json()).then(d=>{
-  document.getElementById('upd').textContent='updated '+new Date(d.updated).toLocaleString();
+  document.getElementById('upd').textContent='updated '+new Date(d.updated).toLocaleString()+' · counts refresh ≤5min';
+  LANES=d.lanes;
   const L=d.lanes, ok=L.filter(x=>!x.cold && (x.remaining??1)>2e6);
   document.getElementById('tot').textContent=M(d.total_remaining);
-  document.getElementById('live').textContent=ok.length+' / '+L.length;
+  document.getElementById('wal').textContent=M(L.reduce((a,x)=>a+(x.wallet||0),0));
+  document.getElementById('live').textContent=ok.length+'/'+L.length;
   document.getElementById('split').textContent=L.filter(x=>x.pool=='prim').length+' / '+L.filter(x=>x.pool=='fb').length;
   document.getElementById('ceil').textContent=M(L.length*80e6);
-  document.getElementById('lanes').innerHTML=L.map(x=>{
-    const pct=x.remaining==null?0:Math.max(0,Math.min(100,x.remaining/80e6*100));
-    const st=x.cold?'<span class="st c">❄ COOLDOWN</span>':x.claimed?'<span class="st g">✓ claimed</span>':'<span class="st r">✗ unclaimed</span>';
-    return `<div class="lane"><div class="id">${x.name}<span class="pill ${x.pool}">${x.pool}</span></div>
-    <div class="bar"><i style="width:${pct}%"></i></div>
-    <div class="row"><span>left ${M(x.remaining)}</span><span>used ${M(x.used)}</span></div>
-    <div class="row"><span>reqs ${x.reqs??0}</span><span>${x.last_error?('⚠ '+x.last_error.slice(0,28)):''}</span></div>
-    ${st}</div>`}).join('');
+  document.getElementById('prim').innerHTML=L.filter(x=>x.pool==='prim').map(card).join('')||'<div class="sub">none yet</div>';
+  document.getElementById('fb').innerHTML=L.filter(x=>x.pool!=='prim').map(card).join('');
+  tick();
 }).catch(e=>document.getElementById('upd').textContent='data fetch failed: '+e);
+setInterval(tick,1000);
 </script></body></html>
