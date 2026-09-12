@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-12T23:10:17.261655+00:00",
+ "updated": "2026-09-12T23:15:18.296431+00:00",
  "total_remaining": 589121782,
  "lanes": [
   {
@@ -107,10 +107,10 @@
    "name": "cursordata",
    "pool": "prim",
    "remaining": 69809234,
-   "used": 21048537,
+   "used": 21066380,
    "claimed": true,
    "cold": false,
-   "reqs": 182,
+   "reqs": 183,
    "soft_fails": 10,
    "last_error": "",
    "wallet": 50000,
@@ -125,7 +125,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T23:04:58.638709+00:00"
+   "asof": "2026-09-12T23:10:19.687223+00:00"
   },
   {
    "alias": "p6",
@@ -150,17 +150,17 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T23:05:01.235226+00:00"
+   "asof": "2026-09-12T23:10:22.260618+00:00"
   },
   {
    "alias": "p7",
    "name": "batacursor",
    "pool": "prim",
    "remaining": 69812301,
-   "used": 21114016,
+   "used": 21130698,
    "claimed": true,
    "cold": false,
-   "reqs": 165,
+   "reqs": 166,
    "soft_fails": 3,
    "last_error": "",
    "wallet": 50000,
@@ -175,7 +175,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T23:05:03.931377+00:00"
+   "asof": "2026-09-12T23:10:24.845221+00:00"
   },
   {
    "alias": "p8",
@@ -185,7 +185,7 @@
    "used": 21423036,
    "claimed": true,
    "cold": false,
-   "reqs": 193,
+   "reqs": 194,
    "soft_fails": 7,
    "last_error": "",
    "wallet": 50000,
@@ -200,7 +200,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T23:05:06.530017+00:00"
+   "asof": "2026-09-12T23:10:27.426734+00:00"
   }
  ],
  "free_models": [
@@ -231,21 +231,21 @@
    },
    "2026-09-13": {
     "qwen3.8-flash-free": {
-     "prompt": 32621725,
-     "completion": 211730,
-     "total": 32833455,
-     "reqs": 340,
-     "est_reqs": 331
+     "prompt": 32654098,
+     "completion": 213882,
+     "total": 32867980,
+     "reqs": 342,
+     "est_reqs": 333
     }
    }
   },
   "models": {
    "qwen3.8-flash-free": {
-    "prompt": 32621725,
-    "completion": 211730,
-    "total": 32833455,
-    "reqs": 340,
-    "est_reqs": 331
+    "prompt": 32654098,
+    "completion": 213882,
+    "total": 32867980,
+    "reqs": 342,
+    "est_reqs": 333
    }
   }
  }
