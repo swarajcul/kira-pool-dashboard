@@ -1,18 +1,18 @@
 {
- "updated": "2026-09-12T14:25:48.904621+00:00",
- "total_remaining": 418816792,
+ "updated": "2026-09-12T14:30:49.362690+00:00",
+ "total_remaining": 418097665,
  "lanes": [
   {
    "alias": "a1",
    "name": "Swarajigris",
    "pool": "fb",
-   "remaining": 77011825,
+   "remaining": 77011321,
    "used": 599180,
    "claimed": true,
    "cold": true,
    "reqs": 12,
    "soft_fails": 2,
-   "last_error": "relay-error: ConnectionError: client dropped before response",
+   "last_error": "",
    "wallet": 50000,
    "streak": 3,
    "last_claim": "2026-09-12",
@@ -25,7 +25,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T14:21:16.794883+00:00"
+   "asof": "2026-09-12T14:26:36.482607+00:00"
   },
   {
    "alias": "a2",
@@ -50,7 +50,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T14:21:18.908745+00:00"
+   "asof": "2026-09-12T14:26:38.733387+00:00"
   },
   {
    "alias": "a3",
@@ -75,13 +75,13 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T14:21:21.374613+00:00"
+   "asof": "2026-09-12T14:26:41.224590+00:00"
   },
   {
    "alias": "a4",
    "name": "rex855070",
    "pool": "fb",
-   "remaining": 77070678,
+   "remaining": 77046151,
    "used": 1593265,
    "claimed": true,
    "cold": false,
@@ -100,19 +100,19 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T14:21:23.480603+00:00"
+   "asof": "2026-09-12T14:26:43.414382+00:00"
   },
   {
    "alias": "p5",
    "name": "cursordata",
    "pool": "prim",
-   "remaining": 65672710,
+   "remaining": 65672206,
    "used": 10461116,
    "claimed": true,
    "cold": true,
    "reqs": 93,
    "soft_fails": 7,
-   "last_error": "relay-error: ConnectionError: client dropped before response",
+   "last_error": "",
    "wallet": 50000,
    "streak": 1,
    "last_claim": "2026-09-12",
@@ -125,67 +125,17 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T14:21:25.550702+00:00"
+   "asof": "2026-09-12T14:26:45.508012+00:00"
   },
   {
    "alias": "p6",
    "name": "ausacursor",
    "pool": "prim",
-   "remaining": 66006134,
+   "remaining": 65943025,
    "used": 10288570,
    "claimed": true,
    "cold": true,
    "reqs": 89,
-   "soft_fails": 5,
-   "last_error": "relay-error: ConnectionError: client dropped before response",
-   "wallet": 50000,
-   "streak": 1,
-   "last_claim": "2026-09-12",
-   "cap": 80000000,
-   "free_models": [
-    "kira-mini-1.0",
-    "mimo-v2.5-free",
-    "hy3-free",
-    "qwen3.8-flash-free",
-    "glm-5.3-free"
-   ],
-   "models_seen": 41,
-   "asof": "2026-09-12T14:21:30.166373+00:00"
-  },
-  {
-   "alias": "p7",
-   "name": "batacursor",
-   "pool": "prim",
-   "remaining": 65699336,
-   "used": 10784328,
-   "claimed": true,
-   "cold": true,
-   "reqs": 77,
-   "soft_fails": 3,
-   "last_error": "relay-error: ConnectionError: client dropped before response",
-   "wallet": 50000,
-   "streak": 1,
-   "last_claim": "2026-09-12",
-   "cap": 80000000,
-   "free_models": [
-    "kira-mini-1.0",
-    "mimo-v2.5-free",
-    "hy3-free",
-    "qwen3.8-flash-free",
-    "glm-5.3-free"
-   ],
-   "models_seen": 41,
-   "asof": "2026-09-12T14:21:32.273852+00:00"
-  },
-  {
-   "alias": "p8",
-   "name": "igrisplayzzz",
-   "pool": "prim",
-   "remaining": 67356109,
-   "used": 9753963,
-   "claimed": true,
-   "cold": false,
-   "reqs": 65,
    "soft_fails": 5,
    "last_error": "",
    "wallet": 50000,
@@ -200,7 +150,57 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T14:21:34.393836+00:00"
+   "asof": "2026-09-12T14:26:47.650021+00:00"
+  },
+  {
+   "alias": "p7",
+   "name": "batacursor",
+   "pool": "prim",
+   "remaining": 65674233,
+   "used": 10784328,
+   "claimed": true,
+   "cold": true,
+   "reqs": 77,
+   "soft_fails": 3,
+   "last_error": "",
+   "wallet": 50000,
+   "streak": 1,
+   "last_claim": "2026-09-12",
+   "cap": 80000000,
+   "free_models": [
+    "kira-mini-1.0",
+    "mimo-v2.5-free",
+    "hy3-free",
+    "qwen3.8-flash-free",
+    "glm-5.3-free"
+   ],
+   "models_seen": 41,
+   "asof": "2026-09-12T14:26:50.013188+00:00"
+  },
+  {
+   "alias": "p8",
+   "name": "igrisplayzzz",
+   "pool": "prim",
+   "remaining": 66750729,
+   "used": 10537747,
+   "claimed": true,
+   "cold": false,
+   "reqs": 70,
+   "soft_fails": 5,
+   "last_error": "",
+   "wallet": 50000,
+   "streak": 1,
+   "last_claim": "2026-09-12",
+   "cap": 80000000,
+   "free_models": [
+    "kira-mini-1.0",
+    "mimo-v2.5-free",
+    "hy3-free",
+    "qwen3.8-flash-free",
+    "glm-5.3-free"
+   ],
+   "models_seen": 41,
+   "asof": "2026-09-12T14:26:52.297629+00:00"
   }
  ],
  "free_models": [
@@ -215,11 +215,11 @@
   "days": {
    "2026-09-12": {
     "qwen3.8-flash-free": {
-     "prompt": 38760353,
-     "completion": 162757,
-     "total": 38923110,
-     "reqs": 289,
-     "est_reqs": 274
+     "prompt": 39542428,
+     "completion": 164466,
+     "total": 39706894,
+     "reqs": 294,
+     "est_reqs": 279
     },
     "hy3-free": {
      "prompt": 4088,
@@ -232,11 +232,11 @@
   },
   "models": {
    "qwen3.8-flash-free": {
-    "prompt": 38760353,
-    "completion": 162757,
-    "total": 38923110,
-    "reqs": 289,
-    "est_reqs": 274
+    "prompt": 39542428,
+    "completion": 164466,
+    "total": 39706894,
+    "reqs": 294,
+    "est_reqs": 279
    },
    "hy3-free": {
     "prompt": 4088,
