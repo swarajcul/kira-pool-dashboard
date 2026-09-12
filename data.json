@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-12T08:24:27.320145+00:00",
+ "updated": "2026-09-12T08:25:14.917551+00:00",
  "total_remaining": 464241866,
  "lanes": [
   {
@@ -175,10 +175,10 @@
    "name": "igrisplayzzz",
    "pool": "prim",
    "remaining": 76889201,
-   "used": 2559209,
+   "used": 2709364,
    "claimed": true,
    "cold": false,
-   "reqs": 20,
+   "reqs": 21,
    "soft_fails": 3,
    "last_error": "",
    "wallet": 50000,
@@ -206,11 +206,11 @@
   "days": {
    "2026-09-12": {
     "qwen3.8-flash-free": {
-     "prompt": 5034753,
-     "completion": 11484,
-     "total": 5046237,
-     "reqs": 39,
-     "est_reqs": 38
+     "prompt": 5184823,
+     "completion": 11569,
+     "total": 5196392,
+     "reqs": 40,
+     "est_reqs": 39
     },
     "hy3-free": {
      "prompt": 4088,
@@ -223,11 +223,11 @@
   },
   "models": {
    "qwen3.8-flash-free": {
-    "prompt": 5034753,
-    "completion": 11484,
-    "total": 5046237,
-    "reqs": 39,
-    "est_reqs": 38
+    "prompt": 5184823,
+    "completion": 11569,
+    "total": 5196392,
+    "reqs": 40,
+    "est_reqs": 39
    },
    "hy3-free": {
     "prompt": 4088,
