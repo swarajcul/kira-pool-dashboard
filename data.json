@@ -1,6 +1,6 @@
 {
- "updated": "2026-09-12T05:20:54.590250+00:00",
- "total_remaining": 277380395,
+ "updated": "2026-09-12T05:25:54.872884+00:00",
+ "total_remaining": 356621333,
  "lanes": [
   {
    "alias": "a1",
@@ -25,7 +25,7 @@
   {
    "alias": "a3",
    "pool": "fb",
-   "remaining": 38178378,
+   "remaining": 37423046,
    "used": 0,
    "claimed": true,
    "cold": false,
@@ -45,11 +45,21 @@
   {
    "alias": "p5",
    "pool": "prim",
-   "remaining": 80000000,
+   "remaining": 79996270,
    "used": 3730,
    "claimed": true,
    "cold": false,
    "reqs": 1,
+   "last_error": ""
+  },
+  {
+   "alias": "p6",
+   "pool": "prim",
+   "remaining": 80000000,
+   "used": 0,
+   "claimed": true,
+   "cold": false,
+   "reqs": 0,
    "last_error": ""
   }
  ]
