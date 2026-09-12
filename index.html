@@ -123,7 +123,8 @@ function freeTable(){
   const t=document.getElementById('ftbl');
   const all={};
   LANES.forEach(l=>(l.free_models||[]).forEach(m=>{all[m]=all[m]||0;all[m]++;}));
-  const known=['mimo-v2.5-free','hy3-free','qwen3.8-flash-free','glm-5.3-free'];
+  const known=['mimo-v2.5-free','hy3-free','qwen3.8-flash-free','glm-5.3-free',
+               'glm-5.3-flash-free','qwen3.8-27b-free','ling-3.0-flash-sante-free'];
   const retired=known.filter(k=>!all[k]);
   let h='<tr><th>model</th><th>on accounts</th><th>status</th></tr>';
   Object.keys(all).sort().forEach(m=>h+=`<tr><td>🆓 ${m}</td><td>${all[m]}/${LANES.length}</td><td><span class="dot up"></span>active</td></tr>`);
