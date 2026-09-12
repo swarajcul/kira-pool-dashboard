@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-12T15:30:55.738313+00:00",
+ "updated": "2026-09-12T15:35:56.227509+00:00",
  "total_remaining": 410895389,
  "lanes": [
   {
@@ -25,7 +25,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T15:30:31.679024+00:00"
+   "asof": "2026-09-12T15:35:55.419608+00:00"
   },
   {
    "alias": "a2",
@@ -159,7 +159,7 @@
    "remaining": 65656149,
    "used": 10801015,
    "claimed": true,
-   "cold": true,
+   "cold": false,
    "reqs": 78,
    "soft_fails": 3,
    "last_error": "",
