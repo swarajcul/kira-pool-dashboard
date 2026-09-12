@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-12T11:25:08.220773+00:00",
+ "updated": "2026-09-12T11:25:32.945770+00:00",
  "total_remaining": 451729083,
  "lanes": [
   {
@@ -107,10 +107,10 @@
    "name": "cursordata",
    "pool": "prim",
    "remaining": 74482373,
-   "used": 4136101,
+   "used": 4316960,
    "claimed": true,
    "cold": false,
-   "reqs": 52,
+   "reqs": 53,
    "soft_fails": 3,
    "last_error": "",
    "wallet": 50000,
@@ -215,11 +215,11 @@
   "days": {
    "2026-09-12": {
     "qwen3.8-flash-free": {
-     "prompt": 14367126,
-     "completion": 53947,
-     "total": 14421073,
-     "reqs": 125,
-     "est_reqs": 124
+     "prompt": 14547868,
+     "completion": 54064,
+     "total": 14601932,
+     "reqs": 126,
+     "est_reqs": 125
     },
     "hy3-free": {
      "prompt": 4088,
@@ -232,11 +232,11 @@
   },
   "models": {
    "qwen3.8-flash-free": {
-    "prompt": 14367126,
-    "completion": 53947,
-    "total": 14421073,
-    "reqs": 125,
-    "est_reqs": 124
+    "prompt": 14547868,
+    "completion": 54064,
+    "total": 14601932,
+    "reqs": 126,
+    "est_reqs": 125
    },
    "hy3-free": {
     "prompt": 4088,
