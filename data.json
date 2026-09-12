@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-12T11:30:33.345143+00:00",
+ "updated": "2026-09-12T11:33:51.682008+00:00",
  "total_remaining": 450787750,
  "lanes": [
   {
@@ -107,10 +107,10 @@
    "name": "cursordata",
    "pool": "prim",
    "remaining": 74246805,
-   "used": 4316960,
+   "used": 4871668,
    "claimed": true,
    "cold": false,
-   "reqs": 53,
+   "reqs": 56,
    "soft_fails": 3,
    "last_error": "",
    "wallet": 50000,
@@ -132,10 +132,10 @@
    "name": "ausacursor",
    "pool": "prim",
    "remaining": 73866506,
-   "used": 4401484,
+   "used": 4588345,
    "claimed": true,
    "cold": false,
-   "reqs": 43,
+   "reqs": 44,
    "soft_fails": 4,
    "last_error": "",
    "wallet": 50000,
@@ -157,10 +157,10 @@
    "name": "batacursor",
    "pool": "prim",
    "remaining": 74334312,
-   "used": 4146278,
+   "used": 4698662,
    "claimed": true,
    "cold": false,
-   "reqs": 37,
+   "reqs": 40,
    "soft_fails": 3,
    "last_error": "",
    "wallet": 50000,
@@ -184,10 +184,10 @@
    "remaining": 74256053,
    "used": 4309080,
    "claimed": true,
-   "cold": false,
+   "cold": true,
    "reqs": 31,
    "soft_fails": 4,
-   "last_error": "",
+   "last_error": "upstream-http-error",
    "wallet": 50000,
    "streak": 1,
    "last_claim": "2026-09-12",
@@ -215,11 +215,11 @@
   "days": {
    "2026-09-12": {
     "qwen3.8-flash-free": {
-     "prompt": 14728910,
-     "completion": 54429,
-     "total": 14783339,
-     "reqs": 127,
-     "est_reqs": 126
+     "prompt": 16018333,
+     "completion": 58959,
+     "total": 16077292,
+     "reqs": 134,
+     "est_reqs": 133
     },
     "hy3-free": {
      "prompt": 4088,
@@ -232,11 +232,11 @@
   },
   "models": {
    "qwen3.8-flash-free": {
-    "prompt": 14728910,
-    "completion": 54429,
-    "total": 14783339,
-    "reqs": 127,
-    "est_reqs": 126
+    "prompt": 16018333,
+    "completion": 58959,
+    "total": 16077292,
+    "reqs": 134,
+    "est_reqs": 133
    },
    "hy3-free": {
     "prompt": 4088,

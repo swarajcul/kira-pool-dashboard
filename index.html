@@ -51,14 +51,14 @@ section{margin-bottom:26px}
 .ublock{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:0}
 .ublock>div{padding:16px}
 .ublock>div+div{box-shadow:inset 1px 0 0 var(--hairline)}
-.ubar-row{display:grid;grid-template-columns:150px 1fr 210px;gap:12px;align-items:center;padding:8px 0;border-bottom:1px solid var(--hairline);font-size:12.5px}
+.ubar-row{display:grid;grid-template-columns:150px minmax(0,1fr);gap:6px 12px;align-items:center;padding:9px 0;border-bottom:1px solid var(--hairline);font-size:12.5px}
 .ubar-row:last-child{border-bottom:0}
 .ubar-row .mname{font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .track{height:6px;background:rgba(255,255,255,.05);border-radius:3px;overflow:hidden}
 .track i{display:block;height:100%;border-radius:3px;background:var(--blue)}
-.uval{font-family:var(--mono);font-size:11px;color:var(--ink2);text-align:right;font-variant-numeric:"tnum";white-space:nowrap}
-.uval b{color:var(--ink);font-weight:500}
-#hist{height:150px;min-width:0}
+.uval{grid-column:2;font-family:var(--mono);font-size:10.5px;color:var(--ink2);font-variant-numeric:"tnum";line-height:1.6;white-space:normal;overflow-wrap:anywhere}
+.uval b{color:var(--ink);font-weight:500;font-size:12px}
+#hist{height:170px;min-width:0}
 .histcap{font-family:var(--mono);font-size:9.5px;letter-spacing:1.2px;text-transform:uppercase;color:var(--ink3);margin-bottom:6px}
 /* lanes */
 .lanes{display:grid;grid-template-columns:repeat(auto-fill,minmax(285px,1fr));gap:10px}
@@ -203,12 +203,16 @@ function hist(){
   const models=[...new Set(keys.flatMap(k=>Object.keys(days[k])))].sort((a,b)=>
     (days[keys.at(-1)]?.[b]?.total||0)-(days[keys.at(-1)]?.[a]?.total||0)).slice(0,5);
   const colors=['#0070f3','#31b556','#f5a623','#7928ca','#ff5b4f'];
-  const series=models.map((m,i)=>({name:m,type:'bar',stack:'t',barWidth:'56%',emphasis:{focus:'series'},
-    itemStyle:{color:colors[i%5],borderRadius:0},data:keys.map(k=>days[k]?.[m]?.total||0)}));
-  const opts={animation:false,grid:{left:4,right:4,top:2,bottom:20,containLabel:true},
+  const series=models.map((m,i)=>({name:m,type:'bar',stack:'t',
+    barMaxWidth:keys.length<=3?58:26,barGap:'-100%',emphasis:{focus:'series'},
+    label:i===models.length-1&&keys.length<=3?{show:true,position:'top',color:'#8f8f8f',
+      fontFamily:'Geist Mono',fontSize:10,formatter:p=>{const k=keys[p.dataIndex];
+        const t=Object.values(days[k]||{}).reduce((a,x)=>a+(x.total||0),0);return t?M(t):'';}}:undefined,
+    itemStyle:{color:colors[i%5]},data:keys.map(k=>days[k]?.[m]?.total||0)}));
+  const opts={animation:false,grid:{left:2,right:6,top:14,bottom:2,containLabel:true},
     xAxis:{type:'category',data:keys.map(k=>k.slice(5)),axisLine:{lineStyle:{color:'rgba(255,255,255,.1)'}},
-      axisTick:{show:false},axisLabel:{color:'#666',fontFamily:'Geist Mono',fontSize:9}},
-    yAxis:{type:'value',splitLine:{lineStyle:{color:'rgba(255,255,255,.05)'}},axisLabel:{color:'#666',fontFamily:'Geist Mono',fontSize:9,formatter:v=>M(v)}},
+      axisTick:{show:false},axisLabel:{color:'#666',fontFamily:'Geist Mono',fontSize:9,interval:0}},
+    yAxis:{type:'value',max:v=>v.max*1.18,splitLine:{lineStyle:{color:'rgba(255,255,255,.05)'}},axisLabel:{color:'#666',fontFamily:'Geist Mono',fontSize:9,formatter:v=>M(v)}},
     tooltip:{trigger:'axis',axisPointer:{type:'shadow'},backgroundColor:'#161616',borderColor:'rgba(255,255,255,.13)',borderWidth:1,
       textStyle:{color:'#ededed',fontFamily:'Geist Mono',fontSize:11},
       formatter:ps=>{const k=keys[ps[0].dataIndex];let h=`<b>${k}</b><div style="opacity:.65;font-size:10px">${istWinOf(k)}</div>`;
