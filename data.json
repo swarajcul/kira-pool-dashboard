@@ -1,16 +1,16 @@
 {
- "updated": "2026-09-12T17:40:20.135995+00:00",
- "total_remaining": 632825771,
+ "updated": "2026-09-12T17:45:20.322860+00:00",
+ "total_remaining": 628035506,
  "lanes": [
   {
    "alias": "a1",
    "name": "Swarajigris",
    "pool": "fb",
-   "remaining": 79999555,
-   "used": 599625,
+   "remaining": 79785213,
+   "used": 901094,
    "claimed": true,
    "cold": false,
-   "reqs": 13,
+   "reqs": 20,
    "soft_fails": 2,
    "last_error": "",
    "wallet": 50000,
@@ -25,17 +25,17 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T17:38:01.602719+00:00"
+   "asof": "2026-09-12T17:43:19.915904+00:00"
   },
   {
    "alias": "a2",
    "name": "cursorttr",
    "pool": "fb",
-   "remaining": 79999243,
-   "used": 757,
+   "remaining": 79772112,
+   "used": 364366,
    "claimed": true,
    "cold": false,
-   "reqs": 1,
+   "reqs": 10,
    "soft_fails": 0,
    "last_error": "",
    "wallet": 200146,
@@ -50,13 +50,13 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T17:38:03.754719+00:00"
+   "asof": "2026-09-12T17:43:22.157697+00:00"
   },
   {
    "alias": "a3",
    "name": "Swarajsxy",
    "pool": "fb",
-   "remaining": 77078207,
+   "remaining": 74019428,
    "used": 416,
    "claimed": true,
    "cold": false,
@@ -75,17 +75,17 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T17:38:05.898579+00:00"
+   "asof": "2026-09-12T17:43:24.246485+00:00"
   },
   {
    "alias": "a4",
    "name": "rex855070",
    "pool": "fb",
-   "remaining": 79999319,
-   "used": 1593946,
+   "remaining": 79763010,
+   "used": 1917334,
    "claimed": true,
    "cold": false,
-   "reqs": 17,
+   "reqs": 24,
    "soft_fails": 3,
    "last_error": "",
    "wallet": 50000,
@@ -100,19 +100,19 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T17:38:08.030756+00:00"
+   "asof": "2026-09-12T17:43:26.400515+00:00"
   },
   {
    "alias": "p5",
    "name": "cursordata",
    "pool": "prim",
-   "remaining": 78683007,
+   "remaining": 78661173,
    "used": 14461586,
    "claimed": true,
    "cold": true,
    "reqs": 149,
    "soft_fails": 10,
-   "last_error": "relay-error: IncompleteRead",
+   "last_error": "",
    "wallet": 50000,
    "streak": 2,
    "last_claim": "2026-09-13",
@@ -125,19 +125,19 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T17:38:10.257934+00:00"
+   "asof": "2026-09-12T17:43:28.499281+00:00"
   },
   {
    "alias": "p6",
    "name": "ausacursor",
    "pool": "prim",
-   "remaining": 78666637,
+   "remaining": 78619018,
    "used": 14694274,
    "claimed": true,
    "cold": true,
    "reqs": 154,
    "soft_fails": 6,
-   "last_error": "relay-error: IncompleteRead",
+   "last_error": "",
    "wallet": 50000,
    "streak": 2,
    "last_claim": "2026-09-13",
@@ -150,7 +150,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T17:38:12.370761+00:00"
+   "asof": "2026-09-12T17:43:30.660898+00:00"
   },
   {
    "alias": "p7",
@@ -175,17 +175,17 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T17:38:14.478748+00:00"
+   "asof": "2026-09-12T17:43:32.791558+00:00"
   },
   {
    "alias": "p8",
    "name": "igrisplayzzz",
    "pool": "prim",
-   "remaining": 78589148,
-   "used": 15586080,
+   "remaining": 77604897,
+   "used": 15930317,
    "claimed": true,
-   "cold": false,
-   "reqs": 145,
+   "cold": true,
+   "reqs": 157,
    "soft_fails": 6,
    "last_error": "",
    "wallet": 50000,
@@ -200,7 +200,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-12T17:38:16.561763+00:00"
+   "asof": "2026-09-12T17:43:34.899863+00:00"
   }
  ],
  "free_models": [
@@ -231,21 +231,21 @@
    },
    "2026-09-13": {
     "qwen3.8-flash-free": {
-     "prompt": 4083042,
-     "completion": 61184,
-     "total": 4144226,
-     "reqs": 115,
-     "est_reqs": 106
+     "prompt": 5402878,
+     "completion": 74051,
+     "total": 5476929,
+     "reqs": 150,
+     "est_reqs": 141
     }
    }
   },
   "models": {
    "qwen3.8-flash-free": {
-    "prompt": 4083042,
-    "completion": 61184,
-    "total": 4144226,
-    "reqs": 115,
-    "est_reqs": 106
+    "prompt": 5402878,
+    "completion": 74051,
+    "total": 5476929,
+    "reqs": 150,
+    "est_reqs": 141
    }
   }
  }
