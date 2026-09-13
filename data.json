@@ -1,6 +1,6 @@
 {
- "updated": "2026-09-13T08:55:54.539264+00:00",
- "total_remaining": 522274055,
+ "updated": "2026-09-13T09:00:54.687118+00:00",
+ "total_remaining": 521710670,
  "lanes": [
   {
    "alias": "a1",
@@ -24,8 +24,8 @@
     "qwen3.8-flash-free",
     "glm-5.3-free"
    ],
-   "models_seen": 42,
-   "asof": "2026-09-13T08:54:52.488003+00:00"
+   "models_seen": 41,
+   "asof": "2026-09-13T09:00:14.839231+00:00"
   },
   {
    "alias": "a2",
@@ -49,8 +49,8 @@
     "qwen3.8-flash-free",
     "glm-5.3-free"
    ],
-   "models_seen": 42,
-   "asof": "2026-09-13T08:54:55.106862+00:00"
+   "models_seen": 41,
+   "asof": "2026-09-13T09:00:17.630202+00:00"
   },
   {
    "alias": "a3",
@@ -74,8 +74,8 @@
     "qwen3.8-flash-free",
     "glm-5.3-free"
    ],
-   "models_seen": 42,
-   "asof": "2026-09-13T08:54:57.749894+00:00"
+   "models_seen": 41,
+   "asof": "2026-09-13T09:00:20.234207+00:00"
   },
   {
    "alias": "a4",
@@ -99,8 +99,8 @@
     "qwen3.8-flash-free",
     "glm-5.3-free"
    ],
-   "models_seen": 42,
-   "asof": "2026-09-13T08:55:00.545789+00:00"
+   "models_seen": 41,
+   "asof": "2026-09-13T09:00:22.884970+00:00"
   },
   {
    "alias": "p5",
@@ -109,7 +109,7 @@
    "remaining": 54041577,
    "used": 31092023,
    "claimed": true,
-   "cold": true,
+   "cold": false,
    "reqs": 290,
    "soft_fails": 15,
    "last_error": "",
@@ -124,18 +124,18 @@
     "qwen3.8-flash-free",
     "glm-5.3-free"
    ],
-   "models_seen": 42,
-   "asof": "2026-09-13T08:55:03.157726+00:00"
+   "models_seen": 41,
+   "asof": "2026-09-13T09:00:25.440092+00:00"
   },
   {
    "alias": "p6",
    "name": "ausacursor",
    "pool": "prim",
-   "remaining": 54291598,
-   "used": 32118078,
+   "remaining": 53997318,
+   "used": 32365602,
    "claimed": true,
-   "cold": true,
-   "reqs": 270,
+   "cold": false,
+   "reqs": 276,
    "soft_fails": 8,
    "last_error": "",
    "wallet": 50000,
@@ -149,18 +149,18 @@
     "qwen3.8-flash-free",
     "glm-5.3-free"
    ],
-   "models_seen": 42,
-   "asof": "2026-09-13T08:55:05.937881+00:00"
+   "models_seen": 41,
+   "asof": "2026-09-13T09:00:28.055973+00:00"
   },
   {
    "alias": "p7",
    "name": "batacursor",
    "pool": "prim",
-   "remaining": 53900454,
-   "used": 31109369,
+   "remaining": 53796862,
+   "used": 31159177,
    "claimed": true,
    "cold": false,
-   "reqs": 251,
+   "reqs": 252,
    "soft_fails": 8,
    "last_error": "",
    "wallet": 50000,
@@ -174,18 +174,18 @@
     "qwen3.8-flash-free",
     "glm-5.3-free"
    ],
-   "models_seen": 42,
-   "asof": "2026-09-13T08:55:08.797768+00:00"
+   "models_seen": 41,
+   "asof": "2026-09-13T09:00:30.622973+00:00"
   },
   {
    "alias": "p8",
    "name": "igrisplayzzz",
    "pool": "prim",
-   "remaining": 53884017,
-   "used": 32381637,
+   "remaining": 53718504,
+   "used": 32513490,
    "claimed": true,
    "cold": false,
-   "reqs": 291,
+   "reqs": 294,
    "soft_fails": 10,
    "last_error": "",
    "wallet": 50000,
@@ -199,8 +199,8 @@
     "qwen3.8-flash-free",
     "glm-5.3-free"
    ],
-   "models_seen": 42,
-   "asof": "2026-09-13T08:55:11.985871+00:00"
+   "models_seen": 41,
+   "asof": "2026-09-13T09:00:33.175965+00:00"
   }
  ],
  "free_models": [
@@ -231,21 +231,21 @@
    },
    "2026-09-13": {
     "qwen3.8-flash-free": {
-     "prompt": 74325785,
-     "completion": 399219,
-     "total": 74725004,
-     "reqs": 701,
-     "est_reqs": 688
+     "prompt": 74750226,
+     "completion": 403963,
+     "total": 75154189,
+     "reqs": 710,
+     "est_reqs": 697
     }
    }
   },
   "models": {
    "qwen3.8-flash-free": {
-    "prompt": 74325785,
-    "completion": 399219,
-    "total": 74725004,
-    "reqs": 701,
-    "est_reqs": 688
+    "prompt": 74750226,
+    "completion": 403963,
+    "total": 75154189,
+    "reqs": 710,
+    "est_reqs": 697
    }
   }
  }
