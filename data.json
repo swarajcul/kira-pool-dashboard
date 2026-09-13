@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-13T09:05:55.012437+00:00",
+ "updated": "2026-09-13T09:10:55.485281+00:00",
  "total_remaining": 521171809,
  "lanes": [
   {
@@ -107,10 +107,10 @@
    "name": "cursordata",
    "pool": "prim",
    "remaining": 53771390,
-   "used": 31319012,
+   "used": 31582190,
    "claimed": true,
    "cold": false,
-   "reqs": 296,
+   "reqs": 299,
    "soft_fails": 15,
    "last_error": "",
    "wallet": 50000,
@@ -132,10 +132,10 @@
    "name": "ausacursor",
    "pool": "prim",
    "remaining": 53728644,
-   "used": 32592155,
+   "used": 32821062,
    "claimed": true,
    "cold": false,
-   "reqs": 279,
+   "reqs": 283,
    "soft_fails": 8,
    "last_error": "",
    "wallet": 50000,
@@ -157,10 +157,10 @@
    "name": "batacursor",
    "pool": "prim",
    "remaining": 53796862,
-   "used": 31159177,
+   "used": 31572076,
    "claimed": true,
    "cold": false,
-   "reqs": 252,
+   "reqs": 260,
    "soft_fails": 8,
    "last_error": "",
    "wallet": 50000,
@@ -182,10 +182,10 @@
    "name": "igrisplayzzz",
    "pool": "prim",
    "remaining": 53718504,
-   "used": 32513490,
+   "used": 32826268,
    "claimed": true,
    "cold": false,
-   "reqs": 294,
+   "reqs": 300,
    "soft_fails": 10,
    "last_error": "",
    "wallet": 50000,
@@ -231,21 +231,21 @@
    },
    "2026-09-13": {
     "qwen3.8-flash-free": {
-     "prompt": 75197072,
-     "completion": 410659,
-     "total": 75607731,
-     "reqs": 718,
-     "est_reqs": 705
+     "prompt": 76401943,
+     "completion": 423550,
+     "total": 76825493,
+     "reqs": 741,
+     "est_reqs": 728
     }
    }
   },
   "models": {
    "qwen3.8-flash-free": {
-    "prompt": 75197072,
-    "completion": 410659,
-    "total": 75607731,
-    "reqs": 718,
-    "est_reqs": 705
+    "prompt": 76401943,
+    "completion": 423550,
+    "total": 76825493,
+    "reqs": 741,
+    "est_reqs": 728
    }
   }
  }
