@@ -1,6 +1,6 @@
 {
- "updated": "2026-09-13T09:00:54.687118+00:00",
- "total_remaining": 521710670,
+ "updated": "2026-09-13T09:05:55.012437+00:00",
+ "total_remaining": 521171809,
  "lanes": [
   {
    "alias": "a1",
@@ -25,7 +25,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T09:00:14.839231+00:00"
+   "asof": "2026-09-13T09:05:35.746156+00:00"
   },
   {
    "alias": "a2",
@@ -50,7 +50,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T09:00:17.630202+00:00"
+   "asof": "2026-09-13T09:05:38.302141+00:00"
   },
   {
    "alias": "a3",
@@ -75,7 +75,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T09:00:20.234207+00:00"
+   "asof": "2026-09-13T09:05:40.961250+00:00"
   },
   {
    "alias": "a4",
@@ -100,17 +100,17 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T09:00:22.884970+00:00"
+   "asof": "2026-09-13T09:05:43.515633+00:00"
   },
   {
    "alias": "p5",
    "name": "cursordata",
    "pool": "prim",
-   "remaining": 54041577,
-   "used": 31092023,
+   "remaining": 53771390,
+   "used": 31319012,
    "claimed": true,
    "cold": false,
-   "reqs": 290,
+   "reqs": 296,
    "soft_fails": 15,
    "last_error": "",
    "wallet": 50000,
@@ -125,17 +125,17 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T09:00:25.440092+00:00"
+   "asof": "2026-09-13T09:05:46.214375+00:00"
   },
   {
    "alias": "p6",
    "name": "ausacursor",
    "pool": "prim",
-   "remaining": 53997318,
-   "used": 32365602,
+   "remaining": 53728644,
+   "used": 32592155,
    "claimed": true,
    "cold": false,
-   "reqs": 276,
+   "reqs": 279,
    "soft_fails": 8,
    "last_error": "",
    "wallet": 50000,
@@ -150,7 +150,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T09:00:28.055973+00:00"
+   "asof": "2026-09-13T09:05:48.814765+00:00"
   },
   {
    "alias": "p7",
@@ -175,7 +175,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T09:00:30.622973+00:00"
+   "asof": "2026-09-13T09:05:51.437413+00:00"
   },
   {
    "alias": "p8",
@@ -200,7 +200,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T09:00:33.175965+00:00"
+   "asof": "2026-09-13T09:05:54.039417+00:00"
   }
  ],
  "free_models": [
@@ -231,21 +231,21 @@
    },
    "2026-09-13": {
     "qwen3.8-flash-free": {
-     "prompt": 74750226,
-     "completion": 403963,
-     "total": 75154189,
-     "reqs": 710,
-     "est_reqs": 697
+     "prompt": 75197072,
+     "completion": 410659,
+     "total": 75607731,
+     "reqs": 718,
+     "est_reqs": 705
     }
    }
   },
   "models": {
    "qwen3.8-flash-free": {
-    "prompt": 74750226,
-    "completion": 403963,
-    "total": 75154189,
-    "reqs": 710,
-    "est_reqs": 697
+    "prompt": 75197072,
+    "completion": 410659,
+    "total": 75607731,
+    "reqs": 718,
+    "est_reqs": 705
    }
   }
  }
