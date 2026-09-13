@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-13T05:55:32.876987+00:00",
+ "updated": "2026-09-13T06:00:34.253580+00:00",
  "total_remaining": 569410841,
  "lanes": [
   {
@@ -25,7 +25,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T05:52:23.779396+00:00"
+   "asof": "2026-09-13T05:57:44.713938+00:00"
   },
   {
    "alias": "a2",
@@ -50,7 +50,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T05:52:26.374993+00:00"
+   "asof": "2026-09-13T05:57:47.302040+00:00"
   },
   {
    "alias": "a3",
@@ -75,7 +75,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T05:52:28.975752+00:00"
+   "asof": "2026-09-13T05:57:49.936938+00:00"
   },
   {
    "alias": "a4",
@@ -100,7 +100,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T05:52:31.538538+00:00"
+   "asof": "2026-09-13T05:57:52.575954+00:00"
   },
   {
    "alias": "p5",
@@ -125,17 +125,17 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T05:52:34.108147+00:00"
+   "asof": "2026-09-13T05:57:55.131936+00:00"
   },
   {
    "alias": "p6",
    "name": "ausacursor",
    "pool": "prim",
    "remaining": 65824930,
-   "used": 24131641,
+   "used": 24455240,
    "claimed": true,
    "cold": false,
-   "reqs": 216,
+   "reqs": 217,
    "soft_fails": 7,
    "last_error": "",
    "wallet": 50000,
@@ -150,18 +150,18 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T05:52:36.720590+00:00"
+   "asof": "2026-09-13T05:57:57.750939+00:00"
   },
   {
    "alias": "p7",
    "name": "batacursor",
    "pool": "prim",
    "remaining": 66022765,
-   "used": 23584634,
+   "used": 23908535,
    "claimed": true,
    "cold": false,
-   "reqs": 186,
-   "soft_fails": 4,
+   "reqs": 187,
+   "soft_fails": 5,
    "last_error": "",
    "wallet": 50000,
    "streak": 2,
@@ -175,7 +175,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T05:52:39.287459+00:00"
+   "asof": "2026-09-13T05:58:00.386934+00:00"
   },
   {
    "alias": "p8",
@@ -200,7 +200,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T05:52:41.842456+00:00"
+   "asof": "2026-09-13T05:58:04.055486+00:00"
   }
  ],
  "free_models": [
@@ -231,21 +231,21 @@
    },
    "2026-09-13": {
     "qwen3.8-flash-free": {
-     "prompt": 43894795,
-     "completion": 286497,
-     "total": 44181292,
-     "reqs": 436,
-     "est_reqs": 427
+     "prompt": 44542116,
+     "completion": 286676,
+     "total": 44828792,
+     "reqs": 438,
+     "est_reqs": 429
     }
    }
   },
   "models": {
    "qwen3.8-flash-free": {
-    "prompt": 43894795,
-    "completion": 286497,
-    "total": 44181292,
-    "reqs": 436,
-    "est_reqs": 427
+    "prompt": 44542116,
+    "completion": 286676,
+    "total": 44828792,
+    "reqs": 438,
+    "est_reqs": 429
    }
   }
  }
