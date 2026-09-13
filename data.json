@@ -1,6 +1,6 @@
 {
- "updated": "2026-09-13T09:25:56.997568+00:00",
- "total_remaining": 517739062,
+ "updated": "2026-09-13T09:30:57.584278+00:00",
+ "total_remaining": 517661353,
  "lanes": [
   {
    "alias": "a1",
@@ -9,10 +9,10 @@
    "remaining": 79029460,
    "used": 1452085,
    "claimed": true,
-   "cold": false,
+   "cold": true,
    "reqs": 33,
    "soft_fails": 2,
-   "last_error": "",
+   "last_error": "service-wide-5xx",
    "wallet": 50000,
    "streak": 4,
    "last_claim": "2026-09-13",
@@ -25,7 +25,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T09:21:42.973610+00:00"
+   "asof": "2026-09-13T09:27:03.913088+00:00"
   },
   {
    "alias": "a2",
@@ -34,10 +34,10 @@
    "remaining": 79405264,
    "used": 524091,
    "claimed": true,
-   "cold": false,
+   "cold": true,
    "reqs": 15,
    "soft_fails": 0,
-   "last_error": "",
+   "last_error": "service-wide-5xx",
    "wallet": 200146,
    "streak": 4,
    "last_claim": "2026-09-13",
@@ -50,19 +50,19 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T09:21:45.585735+00:00"
+   "asof": "2026-09-13T09:27:06.477209+00:00"
   },
   {
    "alias": "a3",
    "name": "Swarajsxy",
    "pool": "fb",
-   "remaining": 66977415,
+   "remaining": 66899706,
    "used": 201306,
    "claimed": true,
-   "cold": false,
+   "cold": true,
    "reqs": 5,
    "soft_fails": 0,
-   "last_error": "",
+   "last_error": "service-wide-5xx",
    "wallet": 0,
    "streak": 4,
    "last_claim": "2026-09-13",
@@ -75,7 +75,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T09:21:48.163615+00:00"
+   "asof": "2026-09-13T09:27:09.017087+00:00"
   },
   {
    "alias": "a4",
@@ -84,10 +84,10 @@
    "remaining": 79157727,
    "used": 2332162,
    "claimed": true,
-   "cold": false,
+   "cold": true,
    "reqs": 34,
    "soft_fails": 3,
-   "last_error": "",
+   "last_error": "service-wide-5xx",
    "wallet": 50000,
    "streak": 3,
    "last_claim": "2026-09-13",
@@ -100,7 +100,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T09:21:50.734630+00:00"
+   "asof": "2026-09-13T09:27:11.681084+00:00"
   },
   {
    "alias": "p5",
@@ -109,10 +109,10 @@
    "remaining": 53284806,
    "used": 31714624,
    "claimed": true,
-   "cold": false,
+   "cold": true,
    "reqs": 301,
    "soft_fails": 15,
-   "last_error": "",
+   "last_error": "service-wide-5xx",
    "wallet": 50000,
    "streak": 2,
    "last_claim": "2026-09-13",
@@ -125,7 +125,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T09:21:53.400089+00:00"
+   "asof": "2026-09-13T09:27:14.299095+00:00"
   },
   {
    "alias": "p6",
@@ -134,10 +134,10 @@
    "remaining": 53252996,
    "used": 32979670,
    "claimed": true,
-   "cold": false,
+   "cold": true,
    "reqs": 287,
    "soft_fails": 8,
-   "last_error": "",
+   "last_error": "service-wide-5xx",
    "wallet": 50000,
    "streak": 2,
    "last_claim": "2026-09-13",
@@ -150,19 +150,19 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T09:21:56.043458+00:00"
+   "asof": "2026-09-13T09:27:16.916463+00:00"
   },
   {
    "alias": "p7",
    "name": "batacursor",
    "pool": "prim",
    "remaining": 53293198,
-   "used": 31572076,
+   "used": 31951891,
    "claimed": true,
-   "cold": false,
-   "reqs": 260,
+   "cold": true,
+   "reqs": 261,
    "soft_fails": 8,
-   "last_error": "",
+   "last_error": "service-wide-5xx",
    "wallet": 50000,
    "streak": 2,
    "last_claim": "2026-09-13",
@@ -175,19 +175,19 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T09:21:58.701916+00:00"
+   "asof": "2026-09-13T09:27:19.507694+00:00"
   },
   {
    "alias": "p8",
    "name": "igrisplayzzz",
    "pool": "prim",
    "remaining": 53338196,
-   "used": 32826268,
+   "used": 33206638,
    "claimed": true,
-   "cold": false,
-   "reqs": 300,
-   "soft_fails": 10,
-   "last_error": "",
+   "cold": true,
+   "reqs": 301,
+   "soft_fails": 11,
+   "last_error": "service-wide-5xx",
    "wallet": 50000,
    "streak": 2,
    "last_claim": "2026-09-13",
@@ -200,7 +200,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T09:22:01.324297+00:00"
+   "asof": "2026-09-13T09:27:22.087852+00:00"
   }
  ],
  "free_models": [
@@ -231,21 +231,21 @@
    },
    "2026-09-13": {
     "qwen3.8-flash-free": {
-     "prompt": 76688962,
-     "completion": 427573,
-     "total": 77116535,
-     "reqs": 747,
-     "est_reqs": 734
+     "prompt": 77445011,
+     "completion": 431709,
+     "total": 77876720,
+     "reqs": 749,
+     "est_reqs": 736
     }
    }
   },
   "models": {
    "qwen3.8-flash-free": {
-    "prompt": 76688962,
-    "completion": 427573,
-    "total": 77116535,
-    "reqs": 747,
-    "est_reqs": 734
+    "prompt": 77445011,
+    "completion": 431709,
+    "total": 77876720,
+    "reqs": 749,
+    "est_reqs": 736
    }
   }
  }
