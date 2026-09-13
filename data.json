@@ -1,6 +1,6 @@
 {
- "updated": "2026-09-13T04:20:20.813110+00:00",
- "total_remaining": 587211440,
+ "updated": "2026-09-13T04:25:21.688229+00:00",
+ "total_remaining": 586360371,
  "lanes": [
   {
    "alias": "a1",
@@ -25,7 +25,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T04:15:54.861812+00:00"
+   "asof": "2026-09-13T04:21:15.931813+00:00"
   },
   {
    "alias": "a2",
@@ -50,13 +50,13 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T04:15:57.472482+00:00"
+   "asof": "2026-09-13T04:21:18.480800+00:00"
   },
   {
    "alias": "a3",
    "name": "Swarajsxy",
    "pool": "fb",
-   "remaining": 71418900,
+   "remaining": 70567831,
    "used": 201306,
    "claimed": true,
    "cold": false,
@@ -75,7 +75,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T04:16:00.068494+00:00"
+   "asof": "2026-09-13T04:21:21.105904+00:00"
   },
   {
    "alias": "a4",
@@ -100,7 +100,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T04:16:02.666063+00:00"
+   "asof": "2026-09-13T04:21:23.713866+00:00"
   },
   {
    "alias": "p5",
@@ -125,17 +125,17 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T04:16:05.302069+00:00"
+   "asof": "2026-09-13T04:21:26.297881+00:00"
   },
   {
    "alias": "p6",
    "name": "ausacursor",
    "pool": "prim",
    "remaining": 69562023,
-   "used": 21402003,
+   "used": 21503243,
    "claimed": true,
    "cold": false,
-   "reqs": 203,
+   "reqs": 204,
    "soft_fails": 7,
    "last_error": "",
    "wallet": 50000,
@@ -150,7 +150,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T04:16:07.999513+00:00"
+   "asof": "2026-09-13T04:21:28.917965+00:00"
   },
   {
    "alias": "p7",
@@ -160,7 +160,7 @@
    "used": 21325648,
    "claimed": true,
    "cold": false,
-   "reqs": 174,
+   "reqs": 175,
    "soft_fails": 3,
    "last_error": "",
    "wallet": 50000,
@@ -175,7 +175,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T04:16:10.710940+00:00"
+   "asof": "2026-09-13T04:21:31.510650+00:00"
   },
   {
    "alias": "p8",
@@ -200,7 +200,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T04:16:13.376166+00:00"
+   "asof": "2026-09-13T04:21:34.104689+00:00"
   }
  ],
  "free_models": [
@@ -231,21 +231,21 @@
    },
    "2026-09-13": {
     "qwen3.8-flash-free": {
-     "prompt": 33423880,
-     "completion": 232170,
-     "total": 33656050,
-     "reqs": 374,
-     "est_reqs": 365
+     "prompt": 33525091,
+     "completion": 232199,
+     "total": 33757290,
+     "reqs": 375,
+     "est_reqs": 366
     }
    }
   },
   "models": {
    "qwen3.8-flash-free": {
-    "prompt": 33423880,
-    "completion": 232170,
-    "total": 33656050,
-    "reqs": 374,
-    "est_reqs": 365
+    "prompt": 33525091,
+    "completion": 232199,
+    "total": 33757290,
+    "reqs": 375,
+    "est_reqs": 366
    }
   }
  }
