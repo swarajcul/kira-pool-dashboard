@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-13T06:35:37.440594+00:00",
+ "updated": "2026-09-13T06:40:38.018291+00:00",
  "total_remaining": 565453735,
  "lanes": [
   {
@@ -107,10 +107,10 @@
    "name": "cursordata",
    "pool": "prim",
    "remaining": 64855061,
-   "used": 24347297,
+   "used": 25006943,
    "claimed": true,
    "cold": false,
-   "reqs": 216,
+   "reqs": 218,
    "soft_fails": 11,
    "last_error": "",
    "wallet": 50000,
@@ -132,10 +132,10 @@
    "name": "ausacursor",
    "pool": "prim",
    "remaining": 64947387,
-   "used": 24455240,
+   "used": 25447245,
    "claimed": true,
    "cold": false,
-   "reqs": 218,
+   "reqs": 220,
    "soft_fails": 8,
    "last_error": "",
    "wallet": 50000,
@@ -157,12 +157,12 @@
    "name": "batacursor",
    "pool": "prim",
    "remaining": 64714149,
-   "used": 24234173,
+   "used": 24563329,
    "claimed": true,
-   "cold": false,
-   "reqs": 188,
+   "cold": true,
+   "reqs": 190,
    "soft_fails": 5,
-   "last_error": "",
+   "last_error": "relay-error: ConnectionError",
    "wallet": 50000,
    "streak": 2,
    "last_claim": "2026-09-13",
@@ -182,11 +182,11 @@
    "name": "igrisplayzzz",
    "pool": "prim",
    "remaining": 64780729,
-   "used": 25085330,
+   "used": 25413389,
    "claimed": true,
    "cold": false,
-   "reqs": 218,
-   "soft_fails": 7,
+   "reqs": 219,
+   "soft_fails": 8,
    "last_error": "",
    "wallet": 50000,
    "streak": 2,
@@ -231,21 +231,21 @@
    },
    "2026-09-13": {
     "qwen3.8-flash-free": {
-     "prompt": 45847667,
-     "completion": 298270,
-     "total": 46145937,
-     "reqs": 442,
-     "est_reqs": 433
+     "prompt": 48153441,
+     "completion": 301362,
+     "total": 48454803,
+     "reqs": 449,
+     "est_reqs": 440
     }
    }
   },
   "models": {
    "qwen3.8-flash-free": {
-    "prompt": 45847667,
-    "completion": 298270,
-    "total": 46145937,
-    "reqs": 442,
-    "est_reqs": 433
+    "prompt": 48153441,
+    "completion": 301362,
+    "total": 48454803,
+    "reqs": 449,
+    "est_reqs": 440
    }
   }
  }
