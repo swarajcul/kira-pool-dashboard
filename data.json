@@ -1,6 +1,6 @@
 {
- "updated": "2026-09-13T09:35:00.973303+00:00",
- "total_remaining": 515337211,
+ "updated": "2026-09-13T09:40:02.112626+00:00",
+ "total_remaining": 514439291,
  "lanes": [
   {
    "alias": "a1",
@@ -9,10 +9,10 @@
    "remaining": 79029460,
    "used": 1452085,
    "claimed": true,
-   "cold": true,
+   "cold": false,
    "reqs": 33,
    "soft_fails": 2,
-   "last_error": "service-wide-5xx",
+   "last_error": "",
    "wallet": 50000,
    "streak": 4,
    "last_claim": "2026-09-13",
@@ -25,7 +25,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T09:32:24.691920+00:00"
+   "asof": "2026-09-13T09:37:45.559772+00:00"
   },
   {
    "alias": "a2",
@@ -34,10 +34,10 @@
    "remaining": 79405264,
    "used": 524091,
    "claimed": true,
-   "cold": true,
+   "cold": false,
    "reqs": 15,
    "soft_fails": 0,
-   "last_error": "service-wide-5xx",
+   "last_error": "",
    "wallet": 200146,
    "streak": 4,
    "last_claim": "2026-09-13",
@@ -50,19 +50,19 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T09:32:27.201968+00:00"
+   "asof": "2026-09-13T09:37:48.152727+00:00"
   },
   {
    "alias": "a3",
    "name": "Swarajsxy",
    "pool": "fb",
-   "remaining": 66144091,
+   "remaining": 65314205,
    "used": 201306,
    "claimed": true,
-   "cold": true,
+   "cold": false,
    "reqs": 5,
    "soft_fails": 0,
-   "last_error": "service-wide-5xx",
+   "last_error": "",
    "wallet": 0,
    "streak": 4,
    "last_claim": "2026-09-13",
@@ -75,7 +75,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T09:32:29.714087+00:00"
+   "asof": "2026-09-13T09:37:50.774725+00:00"
   },
   {
    "alias": "a4",
@@ -84,10 +84,10 @@
    "remaining": 79157727,
    "used": 2332162,
    "claimed": true,
-   "cold": true,
+   "cold": false,
    "reqs": 34,
    "soft_fails": 3,
-   "last_error": "service-wide-5xx",
+   "last_error": "",
    "wallet": 50000,
    "streak": 3,
    "last_claim": "2026-09-13",
@@ -100,19 +100,19 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T09:32:32.385464+00:00"
+   "asof": "2026-09-13T09:37:53.382535+00:00"
   },
   {
    "alias": "p5",
    "name": "cursordata",
    "pool": "prim",
-   "remaining": 53248203,
+   "remaining": 53224561,
    "used": 31767313,
    "claimed": true,
-   "cold": true,
+   "cold": false,
    "reqs": 304,
    "soft_fails": 15,
-   "last_error": "service-wide-5xx",
+   "last_error": "",
    "wallet": 50000,
    "streak": 2,
    "last_claim": "2026-09-13",
@@ -125,19 +125,19 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T09:32:35.115787+00:00"
+   "asof": "2026-09-13T09:37:55.989542+00:00"
   },
   {
    "alias": "p6",
    "name": "ausacursor",
    "pool": "prim",
-   "remaining": 53252996,
+   "remaining": 53208604,
    "used": 33017891,
    "claimed": true,
-   "cold": true,
+   "cold": false,
    "reqs": 289,
    "soft_fails": 8,
-   "last_error": "service-wide-5xx",
+   "last_error": "",
    "wallet": 50000,
    "streak": 2,
    "last_claim": "2026-09-13",
@@ -150,7 +150,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T09:32:37.773039+00:00"
+   "asof": "2026-09-13T09:37:58.589547+00:00"
   },
   {
    "alias": "p7",
@@ -159,10 +159,10 @@
    "remaining": 52782200,
    "used": 31951891,
    "claimed": true,
-   "cold": true,
+   "cold": false,
    "reqs": 261,
    "soft_fails": 8,
-   "last_error": "service-wide-5xx",
+   "last_error": "",
    "wallet": 50000,
    "streak": 2,
    "last_claim": "2026-09-13",
@@ -175,7 +175,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T09:32:40.405205+00:00"
+   "asof": "2026-09-13T09:38:01.244554+00:00"
   },
   {
    "alias": "p8",
@@ -184,10 +184,10 @@
    "remaining": 52317270,
    "used": 33206638,
    "claimed": true,
-   "cold": true,
+   "cold": false,
    "reqs": 301,
    "soft_fails": 11,
-   "last_error": "service-wide-5xx",
+   "last_error": "",
    "wallet": 50000,
    "streak": 2,
    "last_claim": "2026-09-13",
@@ -200,7 +200,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T09:32:43.035900+00:00"
+   "asof": "2026-09-13T09:38:03.836535+00:00"
   }
  ],
  "free_models": [
