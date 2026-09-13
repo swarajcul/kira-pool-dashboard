@@ -1,6 +1,6 @@
 {
- "updated": "2026-09-13T09:15:55.973180+00:00",
- "total_remaining": 519682855,
+ "updated": "2026-09-13T09:20:56.385165+00:00",
+ "total_remaining": 518769905,
  "lanes": [
   {
    "alias": "a1",
@@ -12,7 +12,7 @@
    "cold": false,
    "reqs": 33,
    "soft_fails": 2,
-   "last_error": "service-wide-5xx",
+   "last_error": "",
    "wallet": 50000,
    "streak": 4,
    "last_claim": "2026-09-13",
@@ -25,7 +25,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T09:10:56.622909+00:00"
+   "asof": "2026-09-13T09:16:21.430321+00:00"
   },
   {
    "alias": "a2",
@@ -37,7 +37,7 @@
    "cold": false,
    "reqs": 15,
    "soft_fails": 0,
-   "last_error": "service-wide-5xx",
+   "last_error": "",
    "wallet": 200146,
    "streak": 4,
    "last_claim": "2026-09-13",
@@ -50,19 +50,19 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T09:10:59.529767+00:00"
+   "asof": "2026-09-13T09:16:24.060915+00:00"
   },
   {
    "alias": "a3",
    "name": "Swarajsxy",
    "pool": "fb",
-   "remaining": 68563958,
+   "remaining": 68008258,
    "used": 201306,
    "claimed": true,
    "cold": false,
    "reqs": 5,
    "soft_fails": 0,
-   "last_error": "service-wide-5xx",
+   "last_error": "",
    "wallet": 0,
    "streak": 4,
    "last_claim": "2026-09-13",
@@ -75,7 +75,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T09:11:02.458773+00:00"
+   "asof": "2026-09-13T09:16:27.074141+00:00"
   },
   {
    "alias": "a4",
@@ -87,7 +87,7 @@
    "cold": false,
    "reqs": 34,
    "soft_fails": 3,
-   "last_error": "service-wide-5xx",
+   "last_error": "",
    "wallet": 50000,
    "streak": 3,
    "last_claim": "2026-09-13",
@@ -100,19 +100,19 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T09:11:05.023388+00:00"
+   "asof": "2026-09-13T09:16:29.872767+00:00"
   },
   {
    "alias": "p5",
    "name": "cursordata",
    "pool": "prim",
-   "remaining": 53446004,
+   "remaining": 53284806,
    "used": 31714624,
    "claimed": true,
    "cold": false,
    "reqs": 301,
    "soft_fails": 15,
-   "last_error": "service-wide-5xx",
+   "last_error": "",
    "wallet": 50000,
    "streak": 2,
    "last_claim": "2026-09-13",
@@ -125,19 +125,19 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T09:11:10.559557+00:00"
+   "asof": "2026-09-13T09:16:32.695769+00:00"
   },
   {
    "alias": "p6",
    "name": "ausacursor",
    "pool": "prim",
-   "remaining": 53449048,
+   "remaining": 53252996,
    "used": 32979670,
    "claimed": true,
    "cold": false,
    "reqs": 287,
    "soft_fails": 8,
-   "last_error": "service-wide-5xx",
+   "last_error": "",
    "wallet": 50000,
    "streak": 2,
    "last_claim": "2026-09-13",
@@ -150,7 +150,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T09:11:13.154386+00:00"
+   "asof": "2026-09-13T09:16:35.284769+00:00"
   },
   {
    "alias": "p7",
@@ -162,7 +162,7 @@
    "cold": false,
    "reqs": 260,
    "soft_fails": 8,
-   "last_error": "service-wide-5xx",
+   "last_error": "",
    "wallet": 50000,
    "streak": 2,
    "last_claim": "2026-09-13",
@@ -175,7 +175,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T09:11:16.027710+00:00"
+   "asof": "2026-09-13T09:16:37.851771+00:00"
   },
   {
    "alias": "p8",
@@ -187,7 +187,7 @@
    "cold": false,
    "reqs": 300,
    "soft_fails": 10,
-   "last_error": "service-wide-5xx",
+   "last_error": "",
    "wallet": 50000,
    "streak": 2,
    "last_claim": "2026-09-13",
@@ -200,7 +200,7 @@
     "glm-5.3-free"
    ],
    "models_seen": 41,
-   "asof": "2026-09-13T09:11:18.648705+00:00"
+   "asof": "2026-09-13T09:16:40.416765+00:00"
   }
  ],
  "free_models": [
