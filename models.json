@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-14T15:37:34.688766+00:00",
+ "updated": "2026-09-14T16:37:11.512515+00:00",
  "models": [
   {
    "id": "kira-3.5-pro",
@@ -20,7 +20,7 @@
    ],
    "desc": "Kira 3.5 Pro is engineered for ultra-fast response times and advanced programming capabilities.",
    "group": "Kira",
-   "created": 1789400240
+   "created": 1789403798
   },
   {
    "id": "kira-3.5-flash",
@@ -40,7 +40,7 @@
    ],
    "desc": "Optimized for high-speed performance and advanced coding tasks.",
    "group": "Kira",
-   "created": 1789400240
+   "created": 1789403798
   },
   {
    "id": "kira-2.5-pro",
@@ -60,7 +60,7 @@
    ],
    "desc": "",
    "group": "Kira",
-   "created": 1789400240
+   "created": 1789403798
   },
   {
    "id": "kira-2.5-flash",
@@ -80,7 +80,7 @@
    ],
    "desc": "A long-term, stable model series, suitable for most general information processing needs and voice generation.",
    "group": "Kira",
-   "created": 1789400240
+   "created": 1789403798
   },
   {
    "id": "kira-3.0-image",
@@ -88,7 +88,7 @@
    "type": "image",
    "free": false,
    "status": "active",
-   "sla": 100,
+   "sla": 99.48,
    "ops": "operational",
    "in_limit": 128000,
    "out_limit": 32000,
@@ -102,7 +102,7 @@
    ],
    "desc": "High-speed image generation, ultra-fast, and highly optimized for sketching ideas.",
    "group": "Kira",
-   "created": 1789400240
+   "created": 1789403798
   },
   {
    "id": "kira-2.0-image",
@@ -122,7 +122,7 @@
    ],
    "desc": "High-speed image generation, ultra-fast, and highly optimized for sketching ideas.",
    "group": "Kira",
-   "created": 1789400240
+   "created": 1789403798
   },
   {
    "id": "kira-3.0-video",
@@ -144,7 +144,7 @@
    ],
    "desc": "High-resolution, realistic text-to-video generation (LRO).",
    "group": "Kira",
-   "created": 1789400240
+   "created": 1789403798
   },
   {
    "id": "kira-3.0-video-flash",
@@ -164,7 +164,7 @@
    ],
    "desc": "",
    "group": "Kira",
-   "created": 1789400240
+   "created": 1789403798
   },
   {
    "id": "kira-3.0-flash-tts",
@@ -172,7 +172,7 @@
    "type": "audio",
    "free": false,
    "status": "active",
-   "sla": 83.54,
+   "sla": 82.71,
    "ops": "unstable",
    "in_limit": 0,
    "out_limit": 0,
@@ -184,7 +184,7 @@
    ],
    "desc": "",
    "group": "Kira",
-   "created": 1789400240
+   "created": 1789403798
   },
   {
    "id": "kira-2.0-flash-tts",
@@ -192,7 +192,7 @@
    "type": "audio",
    "free": false,
    "status": "active",
-   "sla": 79.17,
+   "sla": 75,
    "ops": "unstable",
    "in_limit": 0,
    "out_limit": 0,
@@ -204,7 +204,7 @@
    ],
    "desc": "",
    "group": "Kira",
-   "created": 1789400240
+   "created": 1789403798
   },
   {
    "id": "kira-mini-1.0",
@@ -212,7 +212,7 @@
    "type": "chat",
    "free": true,
    "status": "active",
-   "sla": 99.49,
+   "sla": 99.33,
    "ops": "operational",
    "in_limit": 1300000,
    "out_limit": 300000,
@@ -224,7 +224,7 @@
    ],
    "desc": "",
    "group": "Kira",
-   "created": 1789400240
+   "created": 1789403798
   },
   {
    "id": "mimo-v2.5-free",
@@ -232,7 +232,7 @@
    "type": "chat",
    "free": true,
    "status": "active",
-   "sla": 88.24,
+   "sla": 88.22,
    "ops": "unstable",
    "in_limit": 262000,
    "out_limit": 131072,
@@ -243,7 +243,7 @@
    ],
    "desc": "MiMo V2.5 delivers near-flagship performance at an optimized cost, boasting strong reasoning abilities and smooth context comprehension.",
    "group": "MiMo",
-   "created": 1789400240
+   "created": 1789403798
   },
   {
    "id": "hy3-free",
@@ -251,7 +251,7 @@
    "type": "chat",
    "free": true,
    "status": "active",
-   "sla": 50.77,
+   "sla": 52.94,
    "ops": "outage",
    "in_limit": 131070,
    "out_limit": 131070,
@@ -263,7 +263,7 @@
    ],
    "desc": "",
    "group": "Kh\u00e1c",
-   "created": 1789400240
+   "created": 1789403798
   },
   {
    "id": "qwen3.8-flash-free",
@@ -271,7 +271,7 @@
    "type": "chat",
    "free": true,
    "status": "active",
-   "sla": 99.12,
+   "sla": 99.09,
    "ops": "operational",
    "in_limit": 1000000,
    "out_limit": 131072,
@@ -283,7 +283,7 @@
    ],
    "desc": "Qwen 3.8 Flash is an ultra-cost-effective multimodal model by Alibaba, designed specifically for programming tasks and processing ultra-long",
    "group": "Qwen",
-   "created": 1789400240
+   "created": 1789403798
   },
   {
    "id": "glm-5.3-free",
@@ -291,7 +291,7 @@
    "type": "chat",
    "free": true,
    "status": "active",
-   "sla": 89.04,
+   "sla": 89.05,
    "ops": "unstable",
    "in_limit": 1000000,
    "out_limit": 128000,
@@ -303,7 +303,7 @@
    ],
    "desc": "GLM 5.3 is a state-of-the-art large language model boasting exceptional bilingual comprehension, text generation flexibility, and superior c",
    "group": "GLM",
-   "created": 1789400240
+   "created": 1789403798
   },
   {
    "id": "glm-5.3-flash",
@@ -311,7 +311,7 @@
    "type": "chat",
    "free": false,
    "status": "active",
-   "sla": 99.95,
+   "sla": 99.85,
    "ops": "operational",
    "in_limit": 1000000,
    "out_limit": 131000,
@@ -323,7 +323,7 @@
    ],
    "desc": "",
    "group": "GLM",
-   "created": 1789400240
+   "created": 1789403798
   },
   {
    "id": "qwen3.8-flash",
@@ -343,7 +343,7 @@
    ],
    "desc": "",
    "group": "Qwen",
-   "created": 1789400240
+   "created": 1789403798
   },
   {
    "id": "mimo-v2.5",
@@ -362,7 +362,7 @@
    ],
    "desc": "",
    "group": "MiMo",
-   "created": 1789400240
+   "created": 1789403798
   },
   {
    "id": "hy3",
@@ -382,7 +382,7 @@
    ],
    "desc": "",
    "group": "Kh\u00e1c",
-   "created": 1789400240
+   "created": 1789403798
   },
   {
    "id": "mercury-2.5",
@@ -390,7 +390,7 @@
    "type": "chat",
    "free": false,
    "status": "active",
-   "sla": 99.91,
+   "sla": 99.82,
    "ops": "operational",
    "in_limit": 128000,
    "out_limit": 50000,
@@ -402,7 +402,7 @@
    ],
    "desc": "Mercury 2.5 is the state-of-the-art diffusion LLM by Inception Labs, delivering blistering generation speeds of 1,107 tokens/second, a massi",
    "group": "Kh\u00e1c",
-   "created": 1789400240
+   "created": 1789403798
   },
   {
    "id": "mercury-2",
@@ -422,7 +422,7 @@
    ],
    "desc": "Mercury 2 is the state-of-the-art diffusion LLM by Inception Labs, delivering blistering generation speeds of 1,107 tokens/second, a massive",
    "group": "Kh\u00e1c",
-   "created": 1789400240
+   "created": 1789403798
   },
   {
    "id": "deepseek-v4.1-flash",
@@ -442,7 +442,7 @@
    ],
    "desc": "DeepSeek V4.1 Flash is the latest multimodal model from DeepSeek, featuring native text and vision processing, a massive 1M context window, ",
    "group": "DeepSeek",
-   "created": 1789400240
+   "created": 1789403798
   },
   {
    "id": "deepseek-v4-flash",
@@ -462,7 +462,7 @@
    ],
    "desc": "",
    "group": "DeepSeek",
-   "created": 1789400240
+   "created": 1789403798
   },
   {
    "id": "deepseek-v4-pro",
@@ -482,7 +482,7 @@
    ],
    "desc": "",
    "group": "DeepSeek",
-   "created": 1789400240
+   "created": 1789403798
   },
   {
    "id": "deepseek-v4-flash-0731",
@@ -502,7 +502,7 @@
    ],
    "desc": "",
    "group": "DeepSeek",
-   "created": 1789400240
+   "created": 1789403798
   },
   {
    "id": "deepseek-v4-flash-vision-exp",
@@ -522,7 +522,7 @@
    ],
    "desc": "",
    "group": "DeepSeek",
-   "created": 1789400240
+   "created": 1789403798
   },
   {
    "id": "kimi-k3",
@@ -542,7 +542,7 @@
    ],
    "desc": "",
    "group": "Kimi",
-   "created": 1789400240
+   "created": 1789403798
   },
   {
    "id": "ox-alpha",
@@ -561,7 +561,7 @@
    ],
    "desc": "",
    "group": "GLM",
-   "created": 1789400240
+   "created": 1789403798
   },
   {
    "id": "glm-5.3",
@@ -581,7 +581,7 @@
    ],
    "desc": "GLM 5.3 is a state-of-the-art large language model boasting exceptional bilingual comprehension, text generation flexibility, and superior c",
    "group": "GLM",
-   "created": 1789400240
+   "created": 1789403798
   },
   {
    "id": "glm-5.2",
@@ -601,7 +601,7 @@
    ],
    "desc": "",
    "group": "GLM",
-   "created": 1789400240
+   "created": 1789403798
   },
   {
    "id": "minimax-m2.7",
@@ -620,7 +620,7 @@
    ],
    "desc": "MiniMax-M2.7 is a breakthrough AI model featuring ultra-realistic voice and audio processing and generation, paired with exceptionally power",
    "group": "MiniMax",
-   "created": 1789400240
+   "created": 1789403798
   },
   {
    "id": "minimax-m3",
@@ -639,7 +639,7 @@
    ],
    "desc": "",
    "group": "MiniMax",
-   "created": 1789400240
+   "created": 1789403798
   },
   {
    "id": "grok-4.6",
@@ -658,7 +658,7 @@
    ],
    "desc": "",
    "group": "Grok",
-   "created": 1789400240
+   "created": 1789403798
   },
   {
    "id": "grok-4.5",
@@ -678,27 +678,7 @@
    ],
    "desc": "",
    "group": "Grok",
-   "created": 1789400240
-  },
-  {
-   "id": "claude-sonnet-5",
-   "name": "Claude Sonnet 5",
-   "type": "chat",
-   "free": false,
-   "status": "active",
-   "sla": 100,
-   "ops": "operational",
-   "in_limit": 1000000,
-   "out_limit": 128000,
-   "p_in": 50000,
-   "p_out": 260000,
-   "tags": [
-    "Supper",
-    "Coding"
-   ],
-   "desc": "",
-   "group": "Claude",
-   "created": 1789400240
+   "created": 1789403798
   },
   {
    "id": "dots-3-note-preview",
@@ -717,7 +697,7 @@
    ],
    "desc": "",
    "group": "Kh\u00e1c",
-   "created": 1789400240
+   "created": 1789403798
   },
   {
    "id": "qwen3.8-max",
@@ -736,7 +716,7 @@
    ],
    "desc": "",
    "group": "Qwen",
-   "created": 1789400240
+   "created": 1789403798
   },
   {
    "id": "qwen3.5-flash",
@@ -756,7 +736,7 @@
    ],
    "desc": "",
    "group": "Qwen",
-   "created": 1789400240
+   "created": 1789403798
   },
   {
    "id": "qwen3.6-flash",
@@ -776,7 +756,7 @@
    ],
    "desc": "",
    "group": "Qwen",
-   "created": 1789400240
+   "created": 1789403798
   },
   {
    "id": "qwen3.7-plus",
@@ -795,7 +775,7 @@
    ],
    "desc": "",
    "group": "Qwen",
-   "created": 1789400240
+   "created": 1789403798
   },
   {
    "id": "qwen3.5-omni-plus",
@@ -815,7 +795,7 @@
    ],
    "desc": "",
    "group": "Qwen",
-   "created": 1789400240
+   "created": 1789403798
   },
   {
    "id": "qwen3.7-max",
@@ -834,7 +814,7 @@
    ],
    "desc": "",
    "group": "Qwen",
-   "created": 1789400240
+   "created": 1789403798
   },
   {
    "id": "mimo-v2.5-pro",
@@ -853,47 +833,7 @@
    ],
    "desc": "",
    "group": "MiMo",
-   "created": 1789400240
-  },
-  {
-   "id": "gpt-6-astra",
-   "name": "GPT-6 Astra",
-   "type": "chat",
-   "free": false,
-   "status": "active",
-   "sla": 100,
-   "ops": "operational",
-   "in_limit": 1000000,
-   "out_limit": 128000,
-   "p_in": 260000,
-   "p_out": 1300000,
-   "tags": [
-    "Free",
-    "VIP"
-   ],
-   "desc": "GPT-6 Astra is OpenAI's latest flagship model with a 1 million token context window, delivering state-of-the-art reasoning, coding, and mult",
-   "group": "OpenAI",
-   "created": 1789400240
-  },
-  {
-   "id": "gpt-5.6-luna",
-   "name": "GPT 5.6 Luna",
-   "type": "chat",
-   "free": false,
-   "status": "active",
-   "sla": 100,
-   "ops": "operational",
-   "in_limit": 1050000,
-   "out_limit": 128000,
-   "p_in": 5000,
-   "p_out": 30000,
-   "tags": [
-    "Fast",
-    "Chip"
-   ],
-   "desc": "",
-   "group": "OpenAI",
-   "created": 1789400240
+   "created": 1789403798
   },
   {
    "id": "gpt-4o-mini",
@@ -913,7 +853,27 @@
    ],
    "desc": "",
    "group": "OpenAI",
-   "created": 1789400240
+   "created": 1789403798
+  },
+  {
+   "id": "gpt-oss-120b",
+   "name": "GPT OSS 120B",
+   "type": "chat",
+   "free": false,
+   "status": "active",
+   "sla": 100,
+   "ops": "operational",
+   "in_limit": 128000,
+   "out_limit": 16384,
+   "p_in": 4900,
+   "p_out": 10000,
+   "tags": [
+    "Chip",
+    "Open"
+   ],
+   "desc": "",
+   "group": "OpenAI",
+   "created": 1789403798
   },
   {
    "id": "hy4",
@@ -933,7 +893,7 @@
    ],
    "desc": "",
    "group": "Kh\u00e1c",
-   "created": 1789400240
+   "created": 1789403798
   },
   {
    "id": "ling-3.0-flash-sante",
@@ -953,7 +913,7 @@
    ],
    "desc": "Ling-3.0-Flash-Sante is inclusionAI\u2019s language model specialized for health and medicine, built on a Mixture-of-Experts architecture with 12",
    "group": "Kh\u00e1c",
-   "created": 1789400240
+   "created": 1789403798
   }
  ]
 }
