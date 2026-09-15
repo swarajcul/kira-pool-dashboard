@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-15T06:38:00.024320+00:00",
+ "updated": "2026-09-15T07:37:37.826908+00:00",
  "models": [
   {
    "id": "kira-3.5-pro",
@@ -7,7 +7,7 @@
    "type": "chat",
    "free": false,
    "status": "active",
-   "sla": 100,
+   "sla": 98.95,
    "ops": "operational",
    "in_limit": 1000000,
    "out_limit": 65536,
@@ -20,7 +20,7 @@
    ],
    "desc": "Kira 3.5 Pro is engineered for ultra-fast response times and advanced programming capabilities.",
    "group": "Kira",
-   "created": 1789454276
+   "created": 1789457823
   },
   {
    "id": "kira-3.5-flash",
@@ -28,7 +28,7 @@
    "type": "chat",
    "free": false,
    "status": "active",
-   "sla": 98.51,
+   "sla": 98.44,
    "ops": "operational",
    "in_limit": 1000000,
    "out_limit": 65536,
@@ -40,7 +40,7 @@
    ],
    "desc": "Optimized for high-speed performance and advanced coding tasks.",
    "group": "Kira",
-   "created": 1789454276
+   "created": 1789457823
   },
   {
    "id": "kira-2.5-pro",
@@ -48,7 +48,7 @@
    "type": "chat",
    "free": false,
    "status": "active",
-   "sla": 100,
+   "sla": 97.73,
    "ops": "operational",
    "in_limit": 100000,
    "out_limit": 8192,
@@ -60,7 +60,7 @@
    ],
    "desc": "",
    "group": "Kira",
-   "created": 1789454276
+   "created": 1789457823
   },
   {
    "id": "kira-2.5-flash",
@@ -80,7 +80,7 @@
    ],
    "desc": "A long-term, stable model series, suitable for most general information processing needs and voice generation.",
    "group": "Kira",
-   "created": 1789454276
+   "created": 1789457823
   },
   {
    "id": "kira-3.0-image",
@@ -102,7 +102,7 @@
    ],
    "desc": "High-speed image generation, ultra-fast, and highly optimized for sketching ideas.",
    "group": "Kira",
-   "created": 1789454276
+   "created": 1789457823
   },
   {
    "id": "kira-2.0-image",
@@ -122,7 +122,7 @@
    ],
    "desc": "High-speed image generation, ultra-fast, and highly optimized for sketching ideas.",
    "group": "Kira",
-   "created": 1789454276
+   "created": 1789457823
   },
   {
    "id": "kira-3.0-video",
@@ -144,7 +144,7 @@
    ],
    "desc": "High-resolution, realistic text-to-video generation (LRO).",
    "group": "Kira",
-   "created": 1789454276
+   "created": 1789457823
   },
   {
    "id": "kira-3.0-video-flash",
@@ -164,7 +164,7 @@
    ],
    "desc": "",
    "group": "Kira",
-   "created": 1789454276
+   "created": 1789457823
   },
   {
    "id": "kira-3.0-flash-tts",
@@ -184,7 +184,7 @@
    ],
    "desc": "",
    "group": "Kira",
-   "created": 1789454276
+   "created": 1789457823
   },
   {
    "id": "kira-2.0-flash-tts",
@@ -204,7 +204,7 @@
    ],
    "desc": "",
    "group": "Kira",
-   "created": 1789454276
+   "created": 1789457823
   },
   {
    "id": "kira-mini-1.0",
@@ -212,7 +212,7 @@
    "type": "chat",
    "free": true,
    "status": "active",
-   "sla": 99.39,
+   "sla": 99.35,
    "ops": "operational",
    "in_limit": 1300000,
    "out_limit": 300000,
@@ -224,7 +224,7 @@
    ],
    "desc": "",
    "group": "Kira",
-   "created": 1789454276
+   "created": 1789457823
   },
   {
    "id": "mimo-v2.5-free",
@@ -232,8 +232,8 @@
    "type": "chat",
    "free": true,
    "status": "active",
-   "sla": 90.72,
-   "ops": "degraded",
+   "sla": 89.66,
+   "ops": "unstable",
    "in_limit": 262000,
    "out_limit": 131072,
    "p_in": 10200,
@@ -243,7 +243,7 @@
    ],
    "desc": "MiMo V2.5 delivers near-flagship performance at an optimized cost, boasting strong reasoning abilities and smooth context comprehension.",
    "group": "MiMo",
-   "created": 1789454276
+   "created": 1789457823
   },
   {
    "id": "hy3-free",
@@ -251,7 +251,7 @@
    "type": "chat",
    "free": true,
    "status": "active",
-   "sla": 80.88,
+   "sla": 81.87,
    "ops": "unstable",
    "in_limit": 131070,
    "out_limit": 131070,
@@ -263,7 +263,7 @@
    ],
    "desc": "",
    "group": "Kh\u00e1c",
-   "created": 1789454276
+   "created": 1789457823
   },
   {
    "id": "qwen3.8-flash-free",
@@ -271,7 +271,7 @@
    "type": "chat",
    "free": true,
    "status": "active",
-   "sla": 99.78,
+   "sla": 99.7,
    "ops": "operational",
    "in_limit": 1000000,
    "out_limit": 131072,
@@ -283,285 +283,7 @@
    ],
    "desc": "Qwen 3.8 Flash is an ultra-cost-effective multimodal model by Alibaba, designed specifically for programming tasks and processing ultra-long",
    "group": "Qwen",
-   "created": 1789454276
-  },
-  {
-   "id": "glm-5.3-free",
-   "name": "GLM 5.3 Free",
-   "type": "chat",
-   "free": true,
-   "status": "active",
-   "sla": 82.29,
-   "ops": "unstable",
-   "in_limit": 1000000,
-   "out_limit": 128000,
-   "p_in": 36400,
-   "p_out": 114400,
-   "tags": [
-    "Free",
-    "Code"
-   ],
-   "desc": "GLM 5.3 is a state-of-the-art large language model boasting exceptional bilingual comprehension, text generation flexibility, and superior c",
-   "group": "GLM",
-   "created": 1789454276
-  },
-  {
-   "id": "glm-5.3-flash",
-   "name": "GLM 5.3 Flash",
-   "type": "chat",
-   "free": false,
-   "status": "active",
-   "sla": 99.31,
-   "ops": "operational",
-   "in_limit": 1000000,
-   "out_limit": 131000,
-   "p_in": 3911,
-   "p_out": 13039,
-   "tags": [
-    "Chip",
-    "vip"
-   ],
-   "desc": "",
-   "group": "GLM",
-   "created": 1789454276
-  },
-  {
-   "id": "qwen3.8-flash",
-   "name": "Qwen3.8 Flash",
-   "type": "chat",
-   "free": false,
-   "status": "active",
-   "sla": 100,
-   "ops": "operational",
-   "in_limit": 1000000,
-   "out_limit": 131072,
-   "p_in": 4240,
-   "p_out": 12455,
-   "tags": [
-    "Free",
-    "vip"
-   ],
-   "desc": "",
-   "group": "Qwen",
-   "created": 1789454276
-  },
-  {
-   "id": "mimo-v2.5",
-   "name": "Mimo V2.5",
-   "type": "chat",
-   "free": false,
-   "status": "active",
-   "sla": 97.22,
-   "ops": "operational",
-   "in_limit": 262000,
-   "out_limit": 131072,
-   "p_in": 10200,
-   "p_out": 51000,
-   "tags": [
-    "Suy lu\u1eadn logic"
-   ],
-   "desc": "",
-   "group": "MiMo",
-   "created": 1789454276
-  },
-  {
-   "id": "hy3",
-   "name": "Tencent: Hy3",
-   "type": "chat",
-   "free": false,
-   "status": "active",
-   "sla": 100,
-   "ops": "operational",
-   "in_limit": 131070,
-   "out_limit": 131070,
-   "p_in": 3000,
-   "p_out": 12000,
-   "tags": [
-    "Free",
-    "Chip"
-   ],
-   "desc": "",
-   "group": "Kh\u00e1c",
-   "created": 1789454276
-  },
-  {
-   "id": "mercury-2.5",
-   "name": "Mercury 2.5",
-   "type": "chat",
-   "free": false,
-   "status": "active",
-   "sla": 100,
-   "ops": "operational",
-   "in_limit": 128000,
-   "out_limit": 50000,
-   "p_in": 1200,
-   "p_out": 4000,
-   "tags": [
-    "Fast",
-    "262K"
-   ],
-   "desc": "Mercury 2.5 is the state-of-the-art diffusion LLM by Inception Labs, delivering blistering generation speeds of 1,107 tokens/second, a massi",
-   "group": "Kh\u00e1c",
-   "created": 1789454276
-  },
-  {
-   "id": "mercury-2",
-   "name": "Mercury 2",
-   "type": "chat",
-   "free": false,
-   "status": "active",
-   "sla": 100,
-   "ops": "operational",
-   "in_limit": 128000,
-   "out_limit": 50000,
-   "p_in": 1100,
-   "p_out": 3900,
-   "tags": [
-    "Chip",
-    "128K"
-   ],
-   "desc": "Mercury 2 is the state-of-the-art diffusion LLM by Inception Labs, delivering blistering generation speeds of 1,107 tokens/second, a massive",
-   "group": "Kh\u00e1c",
-   "created": 1789454276
-  },
-  {
-   "id": "deepseek-v4.1-flash",
-   "name": "DeepSeek V4.1 Flash",
-   "type": "chat",
-   "free": false,
-   "status": "active",
-   "sla": 100,
-   "ops": "operational",
-   "in_limit": 1000000,
-   "out_limit": 384000,
-   "p_in": 7800,
-   "p_out": 31200,
-   "tags": [
-    "Beta",
-    "Vision"
-   ],
-   "desc": "DeepSeek V4.1 Flash is the latest multimodal model from DeepSeek, featuring native text and vision processing, a massive 1M context window, ",
-   "group": "DeepSeek",
-   "created": 1789454276
-  },
-  {
-   "id": "deepseek-v4-flash",
-   "name": "Deepseek V4 Flash",
-   "type": "chat",
-   "free": false,
-   "status": "active",
-   "sla": 100,
-   "ops": "operational",
-   "in_limit": 1000000,
-   "out_limit": 128000,
-   "p_in": 7800,
-   "p_out": 31200,
-   "tags": [
-    "1.0M Tokens Window",
-    "L\u1eadp tr\u00ecnh"
-   ],
-   "desc": "",
-   "group": "DeepSeek",
-   "created": 1789454276
-  },
-  {
-   "id": "deepseek-v4-pro",
-   "name": "DeepSeek V4 Pro",
-   "type": "chat",
-   "free": false,
-   "status": "active",
-   "sla": 100,
-   "ops": "operational",
-   "in_limit": 100000,
-   "out_limit": 384000,
-   "p_in": 34320,
-   "p_out": 102960,
-   "tags": [
-    "Coding",
-    "M\u1ea1nh"
-   ],
-   "desc": "",
-   "group": "DeepSeek",
-   "created": 1789454276
-  },
-  {
-   "id": "deepseek-v4-flash-0731",
-   "name": "Deepseek v4 Flash 0731",
-   "type": "chat",
-   "free": false,
-   "status": "active",
-   "sla": 100,
-   "ops": "operational",
-   "in_limit": 1000000,
-   "out_limit": 128000,
-   "p_in": 7800,
-   "p_out": 31200,
-   "tags": [
-    "1.0M Tokens Window",
-    "L\u1eadp tr\u00ecnh"
-   ],
-   "desc": "",
-   "group": "DeepSeek",
-   "created": 1789454276
-  },
-  {
-   "id": "deepseek-v4-flash-vision-exp",
-   "name": "Deepseek V4 Flash Vision Exp",
-   "type": "chat",
-   "free": false,
-   "status": "active",
-   "sla": 100,
-   "ops": "operational",
-   "in_limit": 1000000,
-   "out_limit": 128000,
-   "p_in": 7800,
-   "p_out": 31200,
-   "tags": [
-    "Vip",
-    "Chip"
-   ],
-   "desc": "",
-   "group": "DeepSeek",
-   "created": 1789454276
-  },
-  {
-   "id": "kimi-k3",
-   "name": "Kimi K3",
-   "type": "chat",
-   "free": false,
-   "status": "active",
-   "sla": 100,
-   "ops": "operational",
-   "in_limit": 1000000,
-   "out_limit": 128000,
-   "p_in": 75000,
-   "p_out": 380000,
-   "tags": [
-    "Code",
-    "Vip"
-   ],
-   "desc": "",
-   "group": "Kimi",
-   "created": 1789454276
-  },
-  {
-   "id": "ox-alpha",
-   "name": "Ox Alpha",
-   "type": "chat",
-   "free": false,
-   "status": "active",
-   "sla": 100,
-   "ops": "operational",
-   "in_limit": 1000000,
-   "out_limit": 131000,
-   "p_in": 3911,
-   "p_out": 13039,
-   "tags": [
-    "GLM"
-   ],
-   "desc": "",
-   "group": "GLM",
-   "created": 1789454276
+   "created": 1789457823
   },
   {
    "id": "glm-5.3",
@@ -581,7 +303,265 @@
    ],
    "desc": "GLM 5.3 is a state-of-the-art large language model boasting exceptional bilingual comprehension, text generation flexibility, and superior c",
    "group": "GLM",
-   "created": 1789454276
+   "created": 1789457823
+  },
+  {
+   "id": "glm-5.3-flash",
+   "name": "GLM 5.3 Flash",
+   "type": "chat",
+   "free": false,
+   "status": "active",
+   "sla": 99.65,
+   "ops": "operational",
+   "in_limit": 1000000,
+   "out_limit": 131000,
+   "p_in": 3911,
+   "p_out": 13039,
+   "tags": [
+    "Chip",
+    "vip"
+   ],
+   "desc": "",
+   "group": "GLM",
+   "created": 1789457823
+  },
+  {
+   "id": "qwen3.8-flash",
+   "name": "Qwen3.8 Flash",
+   "type": "chat",
+   "free": false,
+   "status": "active",
+   "sla": 100,
+   "ops": "operational",
+   "in_limit": 1000000,
+   "out_limit": 131072,
+   "p_in": 4240,
+   "p_out": 12455,
+   "tags": [
+    "Free",
+    "vip"
+   ],
+   "desc": "",
+   "group": "Qwen",
+   "created": 1789457823
+  },
+  {
+   "id": "mimo-v2.5",
+   "name": "Mimo V2.5",
+   "type": "chat",
+   "free": false,
+   "status": "active",
+   "sla": 97.22,
+   "ops": "operational",
+   "in_limit": 262000,
+   "out_limit": 131072,
+   "p_in": 10200,
+   "p_out": 51000,
+   "tags": [
+    "Suy lu\u1eadn logic"
+   ],
+   "desc": "",
+   "group": "MiMo",
+   "created": 1789457823
+  },
+  {
+   "id": "hy3",
+   "name": "Tencent: Hy3",
+   "type": "chat",
+   "free": false,
+   "status": "active",
+   "sla": 100,
+   "ops": "operational",
+   "in_limit": 131070,
+   "out_limit": 131070,
+   "p_in": 3000,
+   "p_out": 12000,
+   "tags": [
+    "Free",
+    "Chip"
+   ],
+   "desc": "",
+   "group": "Kh\u00e1c",
+   "created": 1789457823
+  },
+  {
+   "id": "mercury-2.5",
+   "name": "Mercury 2.5",
+   "type": "chat",
+   "free": false,
+   "status": "active",
+   "sla": 100,
+   "ops": "operational",
+   "in_limit": 128000,
+   "out_limit": 50000,
+   "p_in": 1200,
+   "p_out": 4000,
+   "tags": [
+    "Fast",
+    "262K"
+   ],
+   "desc": "Mercury 2.5 is the state-of-the-art diffusion LLM by Inception Labs, delivering blistering generation speeds of 1,107 tokens/second, a massi",
+   "group": "Kh\u00e1c",
+   "created": 1789457823
+  },
+  {
+   "id": "mercury-2",
+   "name": "Mercury 2",
+   "type": "chat",
+   "free": false,
+   "status": "active",
+   "sla": 100,
+   "ops": "operational",
+   "in_limit": 128000,
+   "out_limit": 50000,
+   "p_in": 1100,
+   "p_out": 3900,
+   "tags": [
+    "Chip",
+    "128K"
+   ],
+   "desc": "Mercury 2 is the state-of-the-art diffusion LLM by Inception Labs, delivering blistering generation speeds of 1,107 tokens/second, a massive",
+   "group": "Kh\u00e1c",
+   "created": 1789457823
+  },
+  {
+   "id": "deepseek-v4.1-flash",
+   "name": "DeepSeek V4.1 Flash",
+   "type": "chat",
+   "free": false,
+   "status": "active",
+   "sla": 100,
+   "ops": "operational",
+   "in_limit": 1000000,
+   "out_limit": 384000,
+   "p_in": 7800,
+   "p_out": 31200,
+   "tags": [
+    "Beta",
+    "Vision"
+   ],
+   "desc": "DeepSeek V4.1 Flash is the latest multimodal model from DeepSeek, featuring native text and vision processing, a massive 1M context window, ",
+   "group": "DeepSeek",
+   "created": 1789457823
+  },
+  {
+   "id": "deepseek-v4-flash",
+   "name": "Deepseek V4 Flash",
+   "type": "chat",
+   "free": false,
+   "status": "active",
+   "sla": 100,
+   "ops": "operational",
+   "in_limit": 1000000,
+   "out_limit": 128000,
+   "p_in": 7800,
+   "p_out": 31200,
+   "tags": [
+    "1.0M Tokens Window",
+    "L\u1eadp tr\u00ecnh"
+   ],
+   "desc": "",
+   "group": "DeepSeek",
+   "created": 1789457823
+  },
+  {
+   "id": "deepseek-v4-pro",
+   "name": "DeepSeek V4 Pro",
+   "type": "chat",
+   "free": false,
+   "status": "active",
+   "sla": 100,
+   "ops": "operational",
+   "in_limit": 100000,
+   "out_limit": 384000,
+   "p_in": 34320,
+   "p_out": 102960,
+   "tags": [
+    "Coding",
+    "M\u1ea1nh"
+   ],
+   "desc": "",
+   "group": "DeepSeek",
+   "created": 1789457823
+  },
+  {
+   "id": "deepseek-v4-flash-0731",
+   "name": "Deepseek v4 Flash 0731",
+   "type": "chat",
+   "free": false,
+   "status": "active",
+   "sla": 100,
+   "ops": "operational",
+   "in_limit": 1000000,
+   "out_limit": 128000,
+   "p_in": 7800,
+   "p_out": 31200,
+   "tags": [
+    "1.0M Tokens Window",
+    "L\u1eadp tr\u00ecnh"
+   ],
+   "desc": "",
+   "group": "DeepSeek",
+   "created": 1789457823
+  },
+  {
+   "id": "deepseek-v4-flash-vision-exp",
+   "name": "Deepseek V4 Flash Vision Exp",
+   "type": "chat",
+   "free": false,
+   "status": "active",
+   "sla": 100,
+   "ops": "operational",
+   "in_limit": 1000000,
+   "out_limit": 128000,
+   "p_in": 7800,
+   "p_out": 31200,
+   "tags": [
+    "Vip",
+    "Chip"
+   ],
+   "desc": "",
+   "group": "DeepSeek",
+   "created": 1789457823
+  },
+  {
+   "id": "kimi-k3",
+   "name": "Kimi K3",
+   "type": "chat",
+   "free": false,
+   "status": "active",
+   "sla": 100,
+   "ops": "operational",
+   "in_limit": 1000000,
+   "out_limit": 128000,
+   "p_in": 75000,
+   "p_out": 380000,
+   "tags": [
+    "Code",
+    "Vip"
+   ],
+   "desc": "",
+   "group": "Kimi",
+   "created": 1789457823
+  },
+  {
+   "id": "ox-alpha",
+   "name": "Ox Alpha",
+   "type": "chat",
+   "free": false,
+   "status": "active",
+   "sla": 97.08,
+   "ops": "operational",
+   "in_limit": 1000000,
+   "out_limit": 131000,
+   "p_in": 3911,
+   "p_out": 13039,
+   "tags": [
+    "GLM"
+   ],
+   "desc": "",
+   "group": "GLM",
+   "created": 1789457823
   },
   {
    "id": "glm-5.2",
@@ -601,7 +581,7 @@
    ],
    "desc": "",
    "group": "GLM",
-   "created": 1789454276
+   "created": 1789457823
   },
   {
    "id": "minimax-m2.7",
@@ -620,7 +600,7 @@
    ],
    "desc": "MiniMax-M2.7 is a breakthrough AI model featuring ultra-realistic voice and audio processing and generation, paired with exceptionally power",
    "group": "MiniMax",
-   "created": 1789454276
+   "created": 1789457823
   },
   {
    "id": "minimax-m3",
@@ -639,7 +619,7 @@
    ],
    "desc": "",
    "group": "MiniMax",
-   "created": 1789454276
+   "created": 1789457823
   },
   {
    "id": "grok-4.6",
@@ -658,7 +638,7 @@
    ],
    "desc": "",
    "group": "Grok",
-   "created": 1789454276
+   "created": 1789457823
   },
   {
    "id": "grok-4.5",
@@ -678,7 +658,7 @@
    ],
    "desc": "",
    "group": "Grok",
-   "created": 1789454276
+   "created": 1789457823
   },
   {
    "id": "dots-3-note-preview",
@@ -697,7 +677,7 @@
    ],
    "desc": "",
    "group": "Kh\u00e1c",
-   "created": 1789454276
+   "created": 1789457823
   },
   {
    "id": "qwen3.8-max",
@@ -716,7 +696,7 @@
    ],
    "desc": "",
    "group": "Qwen",
-   "created": 1789454276
+   "created": 1789457823
   },
   {
    "id": "qwen3.5-flash",
@@ -736,7 +716,7 @@
    ],
    "desc": "",
    "group": "Qwen",
-   "created": 1789454276
+   "created": 1789457823
   },
   {
    "id": "qwen3.6-flash",
@@ -756,7 +736,7 @@
    ],
    "desc": "",
    "group": "Qwen",
-   "created": 1789454276
+   "created": 1789457823
   },
   {
    "id": "qwen3.7-plus",
@@ -775,7 +755,7 @@
    ],
    "desc": "",
    "group": "Qwen",
-   "created": 1789454276
+   "created": 1789457823
   },
   {
    "id": "qwen3.5-omni-plus",
@@ -795,7 +775,7 @@
    ],
    "desc": "",
    "group": "Qwen",
-   "created": 1789454276
+   "created": 1789457823
   },
   {
    "id": "qwen3.7-max",
@@ -814,7 +794,7 @@
    ],
    "desc": "",
    "group": "Qwen",
-   "created": 1789454276
+   "created": 1789457823
   },
   {
    "id": "mimo-v2.5-pro",
@@ -833,7 +813,7 @@
    ],
    "desc": "",
    "group": "MiMo",
-   "created": 1789454276
+   "created": 1789457823
   },
   {
    "id": "gpt-4o-mini",
@@ -853,7 +833,7 @@
    ],
    "desc": "",
    "group": "OpenAI",
-   "created": 1789454276
+   "created": 1789457823
   },
   {
    "id": "gpt-oss-120b",
@@ -873,7 +853,7 @@
    ],
    "desc": "",
    "group": "OpenAI",
-   "created": 1789454276
+   "created": 1789457823
   },
   {
    "id": "hy4",
@@ -893,7 +873,7 @@
    ],
    "desc": "",
    "group": "Kh\u00e1c",
-   "created": 1789454276
+   "created": 1789457823
   },
   {
    "id": "ling-3.0-flash-sante",
@@ -913,7 +893,7 @@
    ],
    "desc": "Ling-3.0-Flash-Sante is inclusionAI\u2019s language model specialized for health and medicine, built on a Mixture-of-Experts architecture with 12",
    "group": "Kh\u00e1c",
-   "created": 1789454276
+   "created": 1789457823
   }
  ]
 }
